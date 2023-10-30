@@ -1,0 +1,25 @@
+.pagi {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    gap: 8px;
+    margin-top: 420px;
+    margin-right:300px;
+    width: 400px;
+    height: 80px;
+    
+}
+
+.but {
+    border-radius: 100px;
+    height: 30px;
+    width: 30px;
+    border-color: #FFB685;
+    color: black;
+    background-color: white;
+}
+
+.but:hover {
+    background-color: #FFB685;   
+}

@@ -1,0 +1,36 @@
+.searchContainer {
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    border: 2px solid #050a30;
+    border-radius: 35px;
+    height: 40px;
+    width: 250px;
+    justify-content: left;
+  }
+  
+  
+  .input  {
+    border: none;
+    outline: none;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    color: #050a30;
+    font-size: 14px;
+  }
+
+  .input [placeholder='Buscar curso'] {
+    border: none;
+    outline: none;
+    color: #050a30;
+    background-color: #050a30;
+    align-items: center;
+    text-align: center;
+    justify-content: left;
+  }
+
+  .searchIcon {
+    
+    height: 48px;
+  }

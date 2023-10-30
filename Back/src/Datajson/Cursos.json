@@ -1,0 +1,48 @@
+[
+    {
+        "name": "Yoga",
+        "description": "Curso para saber todo de yoga",
+        "price": "10",
+        "image": "https://media.glamour.mx/photos/642c5305347cb2132003b34a/16:9/w_2560%2Cc_limit/yoga_y_estiramientos_diferencias.jpg",
+        "categoria": "Salud y deportes",
+        "formato": "Cursos online",
+        "rating": "5"
+    },
+    {
+        "name": "Chef",
+        "description": "Aprende en este curso como realizar comidas gourmet",
+        "price": "15",
+        "image": "https://www.cronica.com.ar/__export/1666085148350/sites/cronica/img/2022/10/18/chef_crop1666084947952.jpeg_2098901896.jpeg",
+        "categoria": "Gastronomia",
+        "formato": "Cursos online",
+        "rating": "5"
+    },
+    {
+        "name": "Programación",
+        "description": "Aprende sobre Programación Web",
+        "price": "15",
+        "image": "https://blog.hubspot.es/hs-fs/hubfs/media/lenguajesprogramacion.jpeg?width=610&height=406&name=lenguajesprogramacion.jpeg",
+        "categoria": "Software",
+        "formato": "Cursos online",
+        "rating": "5"
+    },
+    {
+        "name": "Ingles",
+        "description": "Aprende el idioma ingles",
+        "price": "15",
+        "image": "https://www.unotv.com/uploads/2022/02/ingles-145003.jpg",
+        "categoria": "Educación",
+        "formato": "Cursos online",
+        "rating": "5"
+    },
+    {
+        "name": "Diseño gráfico",
+        "description": "Aprende sobre el diseño gráfico",
+        "price": "15",
+        "image": "https://mediactiu.com/wp-content/uploads/2021/04/mejor-estudio-de-diseno-grafico-barcelona.jpg",
+        "categoria": "Educación",
+        "formato": "Cursos online",
+        "rating": "5"
+    }
+   
+]

@@ -1,0 +1,39 @@
+.card {
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+    border: 2px solid #050a30;
+    background-color: white;
+    border-radius: 3px;
+    margin: 20px;
+    width: 240px;
+    height: 300px;
+    
+}
+
+.card:hover {
+    -webkit-transform:scale(1.1);transform:scale(1.1);
+}
+
+.image {
+    width: 220px;
+    height: 180px;
+    margin-top: 15px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    border:solid 2px;
+    border-color: #050a30;
+
+}
+
+.container {    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+    
+}
