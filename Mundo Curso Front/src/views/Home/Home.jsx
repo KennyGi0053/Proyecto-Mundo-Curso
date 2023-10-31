@@ -6,6 +6,7 @@ import Paginado from '../../components/Paginado/Paginado'
 import style from './Home.module.css'
 import SearchBar from '../../components/SearchBar/SearchBar'
 import Carrusel from '../../components/Carrusel/Carrusel'
+import Garantia from '../../assets/Garantia.png'
 const Home = () => {
 
   const dispatch = useDispatch()
@@ -41,7 +42,8 @@ const Home = () => {
 }
   return (
     <div className={style.container}>
-      <div className={style.CarruselMain}>
+    <div className={style.CarruselMain}>
+    <img className={style.garantia} src={Garantia} alt='garantia' />      
         <Carrusel/>
       </div>
     <div className= {style.search}>

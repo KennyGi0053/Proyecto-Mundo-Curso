@@ -7,23 +7,22 @@
     
 }
 
-.search {
-    margin-top: 60px;
-}
+
 .cateCardContainer {
     display: flex;
     flex-direction: row;
     align-items: center;
     text-align: center;
     justify-content: center;
-    font-size: 15px;
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif;
     
     
 }
 
 .cateCardContainer .cate {
     width: 30%;
-
+    
 }
 
 .cateCardContainer .card {
@@ -46,15 +45,29 @@
     text-align: left;
     justify-content: center; 
     margin-bottom: 610px;
-    border: solid 1px color black;
+    border: solid 2px color black;
 }
 
 .CarruselMain {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    background: #EDE9E7;
-    max-width: 800px;
-    margin: 50px auto;
+    background: #fff;
+    max-width: 1000px;
+    margin: 0px auto;
     overflow: hidden;
+    border-radius: 20px;
+}
+
+.garantia {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height:140px;
+    margin-left: 860px;
+    z-index: 14;
+    
+   
+    
 }

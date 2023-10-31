@@ -1,5 +1,5 @@
 import imagen1 from '../../assets/foto carrusel 1.png'
-import imagen2 from '../../assets/foto carrusel 2.png'
+import imagen2 from '../../assets/foto carrusel 2.jpg'
 import imagen3 from '../../assets/foto carrusel 3.png'
 import imagen4 from '../../assets/foto carrusel 4.png'
 import FlechaIzquierda from './left-arrow.png'
@@ -68,7 +68,7 @@ const Carrusel = () => {
   useEffect(() => {
     intervaloSlideshow.current = setInterval(() => {
       siguiente()
-    }, 5000)
+    }, 30)
 
     //eliminamos los intervalos
     slideshow.current.addEventListener('mouseenter', () => {
@@ -79,7 +79,7 @@ const Carrusel = () => {
     slideshow.current.addEventListener('mouseleave', () => {
       intervaloSlideshow.current = setInterval(() => {
         siguiente()
-      }, 5000)
+      }, 2000)
       })
   }, [])
   
@@ -88,40 +88,40 @@ const Carrusel = () => {
       <ContenedorSlideshow ref={slideshow}>
 
       <Slide >
-        <a href="https://music.youtube.com/watch?v=Q-gzdu06P1I">
+        <a href="https://go.hotmart.com/H88025602T" target="_blank" rel="noreferrer">
 
         <img  src={imagen1} alt='foto de carrusel 1'/>
         </a>
-        <TextoSlide  colorTexto="#fff">
+        {/* <TextoSlide  colorTexto="#fff">
           <p>Descuento exclusivo en éstos cursos</p>
-        </TextoSlide>
+        </TextoSlide> */}
       </Slide>
       <Slide >
-        <a href="https://music.youtube.com/watch?v=Q-gzdu06P1I">
+        <a href="https://go.hotmart.com/Y85331764P" target="_blank" rel="noreferrer">
 
         <img  src={imagen2} alt='foto de carrusel 2'/>
         </a>
-        <TextoSlide >
-          <p>Descuento exclusivo en éstos cursos</p>
-        </TextoSlide>
+        {/* <TextoSlide >
+          <p>Cursos con clases en línea</p>
+        </TextoSlide> */}
       </Slide>
       <Slide>
-        <a href="https://music.youtube.com/watch?v=Q-gzdu06P1I">
+        <a href="https://go.hotmart.com/S88013109F" target="_blank" rel="noreferrer">
 
         <img src={imagen3} alt='foto de carrusel 3'/>
         </a>
-        <TextoSlide >
+        {/* <TextoSlide >
           <p>Descuento exclusivo en éstos cursos</p>
-        </TextoSlide>
+        </TextoSlide> */}
       </Slide>
       <Slide >
-        <a href="https://music.youtube.com/watch?v=Q-gzdu06P1I">
+        <a href="https://go.hotmart.com/F87831518F" target="_blank" rel="noreferrer">
 
         <img  src={imagen4} alt='foto de carrusel 4'/>
         </a>
-        <TextoSlide >
+        {/* <TextoSlide >
           <p>Descuento exclusivo en éstos cursos</p>
-        </TextoSlide>
+        </TextoSlide> */}
       </Slide>
       </ContenedorSlideshow>
       <Controles >
@@ -139,11 +139,13 @@ const Carrusel = () => {
 const ContenedorPrincipal = styled.div`
 
   position: relative;
+  
 `;
 
 const ContenedorSlideshow = styled.div`
   display: flex;
   flex-wrap: nowrap;
+  
 `;
 
 const Slide = styled.div`
@@ -151,31 +153,32 @@ const Slide = styled.div`
   overflow: hidden;
   transition: .3s ease all;
   z-index: 10;
-  max-height: 300px;
+  max-height: 500px;
   position: relative;
-
+  
   img {
     width: 100%;
-    max-height: 300px;
+    max-height: 450px;
     vertical-align: top;
+    
   }
 `;
 
-const TextoSlide = styled.div`
+// const TextoSlide = styled.div`
   
-  background: ${props => props.colorFondo ? props.colorFondo : 'rgba(0,0,0,.3)'};
-  color: ${props => props.colorTexto ? props.colorTexto : '#fff'};
-  width: 85%;
-  padding: 10px 68px;
-  text-align: center;
-  position: absolute;
-  bottom: 0;
-  font-family: 'Poppins', sans-serif;
-  font-size: larger;
-  @media screen and (max-width: 700px) {
-    position: relative;
-  }
-`;
+//   background: ${props => props.colorFondo ? props.colorFondo : 'rgba(0,0,0,.3)'};
+//   color: ${props => props.colorTexto ? props.colorTexto : '#fff'};
+//   width: 85%;
+//   padding: 10px 68px;
+//   text-align: center;
+//   position: absolute;
+//   bottom: 0;
+//   font-family: 'Poppins', sans-serif;
+//   font-size: larger;
+//   @media screen and (max-width: 700px) {
+//     position: relative;
+//   }
+// `;
 
 const Controles = styled.div`
   position: absolute;

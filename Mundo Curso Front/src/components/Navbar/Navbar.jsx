@@ -16,7 +16,8 @@ const Navbar = () => {
 
         </section >
         <section className={styles.Bienvenido}>
-       <p className={styles.p}>Bienvenido a Mundo Curso,</p>
+       <p className={styles.p}>Bienvenido a Mundo Curso</p>
+        {/* <img className={styles.garantia} src={Garantia} alt='garantia' /> */}
 
         </section>
         
