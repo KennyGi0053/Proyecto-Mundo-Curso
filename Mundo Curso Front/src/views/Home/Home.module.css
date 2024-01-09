@@ -4,7 +4,7 @@
     justify-content: center;
     flex-direction: column;
     background-color: rgb(255, 255, 255);
-    
+    margin: 20px;
 }
 
 
@@ -21,12 +21,12 @@
 }
 
 .cateCardContainer .cate {
-    width: 30%;
+    width: 20%;
     
 }
 
 .cateCardContainer .card {
-    width: 70%;
+    width: 80%;
 }
 .card {
     display: flex;
@@ -54,7 +54,7 @@
     box-sizing: border-box;
     background: transparent;
     max-width: 1000px;
-    margin: 30px auto;
+    margin: 50px auto;
     overflow: hidden;
     border-radius: 20px;
     border: solid 2px;
@@ -67,9 +67,6 @@
     align-items: center;
     text-align: center;
     height:140px;
-    margin-left: 860px;
+    margin-left: 650px;
     z-index: 14;
-    
-   
-    
 }

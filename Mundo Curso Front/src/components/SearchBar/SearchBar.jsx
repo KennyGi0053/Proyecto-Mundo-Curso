@@ -31,7 +31,7 @@ const SearchBar = (returnToFirstPage) => {
   <img src={search} to='iconoSearch'className={style.searchIcon}/>
   <input className={style.input}
     type='text'
-    placeholder='Buscar curso...'
+    placeholder='Buscar Curso...'
     value={name}
     onChange={(event) => handleChange(event)}
   />

@@ -53,8 +53,8 @@ const Home = () => {
       <SearchBar returnToFirstPage={returnToFirstPage}/>
     </div>
       </div>
-    <img className={style.garantia} src={Garantia} alt='garantia' />      
   
+     <img className={style.garantia} src={Garantia} alt='garantia' />      
   <div className={style.cateCardContainer} >
     <div className={style.categoria} >
      <label>CATEGORIA</label>
