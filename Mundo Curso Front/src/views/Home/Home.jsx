@@ -44,7 +44,6 @@ const Home = () => {
   return (
     <div className={style.container}>
     <div className={style.CarruselMain}>
-    <img className={style.garantia} src={Garantia} alt='garantia' />      
         <Carrusel/>
       </div>
       <div className={style.ContainerFilters}>
@@ -54,6 +53,7 @@ const Home = () => {
       <SearchBar returnToFirstPage={returnToFirstPage}/>
     </div>
       </div>
+    <img className={style.garantia} src={Garantia} alt='garantia' />      
   
   <div className={style.cateCardContainer} >
     <div className={style.categoria} >
@@ -86,7 +86,6 @@ const Home = () => {
         key={cu.id}/>
         )
       })}
-      <button>PAGAR</button>
 
   <Paginado 
   cursosPorPagina={cursosPorPagina}

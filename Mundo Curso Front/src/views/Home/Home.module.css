@@ -3,7 +3,7 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    background-color: rgb(240,240,255);
+    background-color: rgb(255, 255, 255);
     
 }
 
@@ -57,6 +57,8 @@
     margin: 30px auto;
     overflow: hidden;
     border-radius: 20px;
+    border: solid 2px;
+    border-color: #050a30;
 }
 
 .garantia {
