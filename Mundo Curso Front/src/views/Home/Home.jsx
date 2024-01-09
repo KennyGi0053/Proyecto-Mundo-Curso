@@ -22,10 +22,11 @@ const Home = () => {
     dispatch(getCursos())
   }, [dispatch])
   
-  const handleCategoria = (event) => {
-    dispatch(filterByCategoria(event.target.value))
-    setCurrentPage(1)
-  }
+  
+   const handleCategoria = (event) => {
+     dispatch(filterByCategoria(event.target.value))
+     setCurrentPage(1)
+   }
 
   const [currentPage, setCurrentPage] = useState(1)
   const [cursosPorPagina] = useState(15)
@@ -46,14 +47,17 @@ const Home = () => {
     <img className={style.garantia} src={Garantia} alt='garantia' />      
         <Carrusel/>
       </div>
+      <div className={style.ContainerFilters}>
+
     <div className= {style.search}>
 
       <SearchBar returnToFirstPage={returnToFirstPage}/>
     </div>
+      </div>
   
   <div className={style.cateCardContainer} >
     <div className={style.categoria} >
-    <label>CATEGORIA</label>
+     <label>CATEGORIA</label>
       {
         categoria?.map((cate, index) => (
           <div key={index}>
@@ -66,11 +70,11 @@ const Home = () => {
             <label htmlFor={`cbox${index + 1}`}>{cate.name}</label>
           </div>
         ))
-      }
+      } 
     </div>
   <div className={style.card}>
     {currentCursos?.map((cu) => {
-
+      
       return (
         
         <Card
@@ -80,8 +84,9 @@ const Home = () => {
         rating={cu.rating}
         price={cu.price} 
         key={cu.id}/>
-      )
-    })}
+        )
+      })}
+      <button>PAGAR</button>
 
   <Paginado 
   cursosPorPagina={cursosPorPagina}

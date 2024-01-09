@@ -1,5 +1,5 @@
 import imagen1 from '../../assets/foto carrusel 1.png'
-import imagen2 from '../../assets/foto carrusel 2.jpg'
+import imagen2 from '../../assets/350 recetas saludables.png'
 import imagen3 from '../../assets/foto carrusel 3.png'
 import imagen4 from '../../assets/foto carrusel 4.png'
 import FlechaIzquierda from './left-arrow.png'
@@ -36,12 +36,15 @@ const Carrusel = () => {
         slideshow.current.appendChild(primerElemento);
 
         slideshow.current.removeEventListener('transitionend', transicion)
+        
       }
-
-      //Eventlistener para cuando termina la animacion
-      slideshow.current.addEventListener('transitionend', transicion)
+        //Eventlistener para cuando termina la animacion
+        slideshow.current.addEventListener('transitionend', transicion)
+        
+    
 
     }
+
   }
   
   const anterior = () => {
@@ -88,7 +91,7 @@ const Carrusel = () => {
       <ContenedorSlideshow ref={slideshow}>
 
       <Slide >
-        <a href="https://go.hotmart.com/H88025602T" target="_blank" rel="noreferrer">
+        <a href="https://sonriesinazucar.com/" target="_blank" rel="noreferrer">
 
         <img  src={imagen1} alt='foto de carrusel 1'/>
         </a>
@@ -97,7 +100,7 @@ const Carrusel = () => {
         </TextoSlide> */}
       </Slide>
       <Slide >
-        <a href="https://go.hotmart.com/Y85331764P" target="_blank" rel="noreferrer">
+        <a href="https://sonriesinazucar.com/" target="_blank" rel="noreferrer">
 
         <img  src={imagen2} alt='foto de carrusel 2'/>
         </a>
@@ -128,7 +131,7 @@ const Carrusel = () => {
         <Boton onClick={anterior}>
           <img  src={FlechaIzquierda} alt='flecha izquierda'/>
         </Boton>
-        <Boton derecho onClick={siguiente}>
+        <Boton derecho="true" onClick={siguiente}>
         <img src={FlechaDerecha} alt='flecha derecha'/>
         </Boton>
       </Controles>
@@ -210,9 +213,9 @@ const Boton = styled.button`
   // }
 
   path {
-    filter: ${props => props.derecho ? 'drop-shadow(-2px 0px 0px #fff)' : 'drop-shadow(2px 0px 0px #fff)'};
+    filter: ${props => props.derecho === "true" ? 'drop-shadow(-2px 0px 0px #fff)' : 'drop-shadow(2px 0px 0px #fff)'};
   }
+  ${props => props.derecho === "true" ? 'right:0': 'left:0'}
 
-  ${props => props.derecho ? 'right:0': 'left:0'}
 `;
 export default Carrusel

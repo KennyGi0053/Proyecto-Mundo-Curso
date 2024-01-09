@@ -14,6 +14,7 @@ const CardsContainer = () => {
             rating={curso.rating}
             name={curso.name}
             price={curso.price}
+            categoria={curso.categoria}
             key={curso.id}
             />
         })}

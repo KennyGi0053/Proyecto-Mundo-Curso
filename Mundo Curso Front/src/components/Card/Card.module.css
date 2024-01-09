@@ -3,17 +3,21 @@
     text-align: center;
     justify-content: center;
     flex-direction: column;
-    border: 2px solid #050a30;
-    background-color: white;
-    border-radius: 3px;
+    color: #f84764;
+    background-color: #fff;
+    border-radius: 10px;
     margin: 20px;
     width: 240px;
     height: 330px;
     
+    font-weight: bold; /* Texto en negrita para destacar el precio */
+    font-size: 20px;
+    border: solid 3px;
 }
-
 .card:hover {
     -webkit-transform:scale(1.1);transform:scale(1.1);
+    transform: scale(1.1);
+    box-shadow: 20px 20px 20px rgba(0, 0, 0, 0.2); /* Agrega la sombra en el hover */
 }
 
 .image {
@@ -23,17 +27,42 @@
     align-items: center;
     text-align: center;
     justify-content: center;
-    border:solid 2px;
-    border-color: #050a30;
+    
+    border-radius: 10px;
 
 }
 
+.name {
+    font-size: medium;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 5px;
+    color: #050a30;
+}
 .container {    
     display: flex;
     align-items: center;
     justify-content: center;
     text-align: center;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    
+    font-family: 'Poppins', sans-serif;
+    color: #050a30;
     
 }
+
+.price {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin: 10px;
+    margin-top: 50px;
+    font-size: 20px;
+    color: #050a30; /* Color naranja, puedes ajustarlo según tus preferencias */
+    font-weight: bold; /* Texto en negrita para destacar el precio */
+
+}
+
+.price::after {
+    content: 'US$ '; /* Agrega un símbolo de dólar antes del precio */
+    font-size: 20px; /* Tamaño del símbolo de dólar */
+    margin-left: 5px; /* Espacio entre el símbolo de dólar y el precio */
+}
+

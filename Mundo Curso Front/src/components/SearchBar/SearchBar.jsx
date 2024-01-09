@@ -1,24 +1,30 @@
 import { useState } from "react"
-import { searchByName } from "../../redux/actions"
+import { searchByName, getCursos } from "../../redux/actions"
 import { useDispatch } from "react-redux"
 import style from './SearchBar.module.css'
 import search from '../../assets/search.gif'
 const SearchBar = (returnToFirstPage) => {
-    const dispatch = useDispatch()
-    const [name, setName] = useState('')
+    const dispatch = useDispatch();
+  const [name, setName] = useState('');
 
+  const handleChange = (event) => {
+    const value = event.target.value;
+    event.preventDefault();
+    setName(value);
 
-    const handleChange = (event) => {
-        const value = event.target.value;
-        event.preventDefault()
-        setName(value)
-
-        if (value.trim() !== '') {
-            dispatch(searchByName(value))
-            .then(() => {returnToFirstPage()})
-        }
-
+    if (value.trim() !== '') {
+      dispatch(searchByName(value))
+        .then(() => {
+          returnToFirstPage();
+        });
+    } else {
+      // Si el valor está en blanco, vuelve a cargar todas las cartas
+      dispatch(getCursos())
+        .then(() => {
+          returnToFirstPage();
+        });
     }
+  };
 
   return (
     <div className={style.searchContainer}>
