@@ -1,80 +1,31 @@
 [
     {
-        "name": "Ambiente"
+        "name": "Alimentos y cocina"
     },
     {
-        "name": "Desarrollo personal"
+        "name": "Belleza"
     },
     {
-        "name": "Educación"
+        "name": "Animales"
     },
     {
-        "name": "Espiritualidad"
+        "name": "Tecnología"
     },
     {
-        "name": "General"
+        "name": "Emprendimiento"
     },
     {
-        "name": "Internet"
-    },
-    {
-        "name": "Musica y arte"
-    },
-    {
-        "name": "Salud y deportes"
-    },
-    {
-        "name": "Tecnología de la información"
-    },
-    {
-        "name": "Animales y plantas"
-    },
-    {
-        "name": "Diseño"
-    },
-    {
-        "name": "Emprendimiento Digital"
-    },
-    {
-        "name": "Finanzas"
-    },
-    {
-        "name": "Hobbies"
-    },
-    {
-        "name": "Literatura"
-    },
-    {
-        "name": "Negocios y carrera"
+        "name": "Salud"
     },
     {
         "name": "Sexualidad"
     },
     {
-        "name": "Salud y deportes"
+        "name": "Ebooks"
     },
     {
-        "name": "Derecho"
-    },
-    {
-        "name": "Edificios y construcciones"
-    },
-    {
-        "name": "Entretenimiento"
-    },
-    {
-        "name": "Gastronomía"
-    },
-    {
-        "name": "Idiomas"
-    },
-    {
-        "name": "Moda y belleza"
-    },
-    {
-        "name": "Relaciones"
-    },
-    {
-        "name": "Software"
+        "name": "Finanzas e inversiones"
     }
+    
+    
 ]

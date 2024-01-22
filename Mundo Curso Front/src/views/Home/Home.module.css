@@ -10,30 +10,22 @@
 
 .cateCardContainer {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     align-items: center;
     text-align: center;
     justify-content: center;
-    font-size: 18px;
-    font-family: 'Poppins', sans-serif;
+   
     
     
 }
 
-.cateCardContainer .cate {
-    width: 20%;
-    
-}
 
-.cateCardContainer .card {
-    width: 80%;
-}
 .card {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
-    margin-top: 40px;
+    
 }
 
 
@@ -44,7 +36,7 @@
     align-items: center;
     text-align: left;
     justify-content: center; 
-    margin-bottom: 610px;
+    margin-bottom: 50px;
     border: solid 2px color black;
 }
 
@@ -67,6 +59,6 @@
     align-items: center;
     text-align: center;
     height:140px;
-    margin-left: 650px;
+    margin-left: 850px;
     z-index: 14;
 }

@@ -57,21 +57,19 @@ const Home = () => {
      <img className={style.garantia} src={Garantia} alt='garantia' />      
   <div className={style.cateCardContainer} >
     <div className={style.categoria} >
-     <label>CATEGORIA</label>
+     <select onChange={(event) => handleCategoria(event)}>
+      <option value="">Selecciona una categoría</option>
       {
         categoria?.map((cate, index) => (
-          <div key={index}>
-            <input
-              type="checkbox"
-              value={cate.name}
-              id={`cbox${index + 1}`}
-              onChange={(event) => handleCategoria(event)}
-            />
-            <label htmlFor={`cbox${index + 1}`}>{cate.name}</label>
-          </div>
+          <option key={index} value={cate.name}>
+            {cate.name}
+          </option>
         ))
-      } 
-    </div>
+      }
+    </select>
+  </div>
+
+    
   <div className={style.card}>
     {currentCursos?.map((cu) => {
       

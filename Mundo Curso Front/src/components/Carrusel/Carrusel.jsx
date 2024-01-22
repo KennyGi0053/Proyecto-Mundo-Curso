@@ -71,7 +71,7 @@ const Carrusel = () => {
   useEffect(() => {
     intervaloSlideshow.current = setInterval(() => {
       siguiente()
-    }, 30)
+    }, 8200)
 
     //eliminamos los intervalos
     slideshow.current.addEventListener('mouseenter', () => {
@@ -82,7 +82,7 @@ const Carrusel = () => {
     slideshow.current.addEventListener('mouseleave', () => {
       intervaloSlideshow.current = setInterval(() => {
         siguiente()
-      }, 2000)
+      }, 8000)
       })
   }, [])
   
