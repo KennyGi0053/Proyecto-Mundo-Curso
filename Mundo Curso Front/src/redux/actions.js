@@ -14,6 +14,20 @@ export const getCursos = () => {
     }
 }
 
+export const GET_CURSOSID = 'GET_CURSOSID'
+
+export const getCursosId = (id) => {
+    return async(dispatch) => {
+        const response = await axios.get(`http://localhost:3001/curso/${id}`)
+        const curso = response.data
+
+        dispatch({
+            type: GET_CURSOSID,
+            payload: curso
+        })
+    }
+}
+
 export const GET_CATEGORIA = 'GET_CATEGORIA'
 
 export const getCategoria = () => {
