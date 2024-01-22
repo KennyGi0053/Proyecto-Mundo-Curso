@@ -25,21 +25,21 @@ const Carrusel = () => {
 
       const tamañoSlide = slideshow.current.children[0].offsetWidth;
       //movemos el slideshow
-      slideshow.current.style.transform = `translateX(-${tamañoSlide}px)`;
+  slideshow.current.style.transform = `translateX(-${tamañoSlide}px)`;
 
-      const transicion = () => {
-        //reiniciamos la posicion del slidershow
-        slideshow.current.style.transition = 'none';
-        slideshow.current.style.transform = `translateX(0)`;
+const transicion = () => {
+  // reiniciamos la posición del slideshow
+  slideshow.current.style.transition = 'none';
+  slideshow.current.style.transform = `translateX(0)`;  // Asegúrate de usar translateX aquí
 
-        //tomamos el primer elemento y lo mandamos al final
-        slideshow.current.appendChild(primerElemento);
+  // tomamos el primer elemento y lo mandamos al final
+  slideshow.current.appendChild(primerElemento);
 
-        slideshow.current.removeEventListener('transitionend', transicion)
-        
-      }
-        //Eventlistener para cuando termina la animacion
-        slideshow.current.addEventListener('transitionend', transicion)
+  slideshow.current.removeEventListener('transitionend', transicion);
+}
+
+// Eventlistener para cuando termina la animación
+slideshow.current.addEventListener('transitionend', transicion);
         
     
 
@@ -143,6 +143,7 @@ const ContenedorPrincipal = styled.div`
 
   position: relative;
   
+  
 `;
 
 const ContenedorSlideshow = styled.div`
@@ -156,32 +157,32 @@ const Slide = styled.div`
   overflow: hidden;
   transition: .3s ease all;
   z-index: 10;
-  max-height: 500px;
+  max-height: 400px;
   position: relative;
   
   img {
     width: 100%;
-    max-height: 450px;
+    max-height: 400px;
     vertical-align: top;
     
   }
 `;
 
-// const TextoSlide = styled.div`
+//  const TextoSlide = styled.div`
   
-//   background: ${props => props.colorFondo ? props.colorFondo : 'rgba(0,0,0,.3)'};
-//   color: ${props => props.colorTexto ? props.colorTexto : '#fff'};
-//   width: 85%;
-//   padding: 10px 68px;
-//   text-align: center;
-//   position: absolute;
-//   bottom: 0;
-//   font-family: 'Poppins', sans-serif;
-//   font-size: larger;
-//   @media screen and (max-width: 700px) {
-//     position: relative;
-//   }
-// `;
+//    background: ${props => props.colorFondo ? props.colorFondo : 'rgba(0,0,0,.3)'};
+//    color: ${props => props.colorTexto ? props.colorTexto : '#fff'};
+//    width: 85%;
+//    padding: 10px 68px;
+//    text-align: center;
+//    position: absolute;
+//    bottom: 0;
+//    font-family: 'Poppins', sans-serif;
+//    font-size: larger;
+//    @media screen and (max-width: 700px) {
+//      position: relative;
+//    }
+//  `;
 
 const Controles = styled.div`
   position: absolute;
@@ -205,12 +206,12 @@ const Boton = styled.button`
   transition: .3s ease all;
   
 
-  // &:hover {
-  //   background: rgba(0,0,0,.2);
-  //   path {
-  //     fill: #fff;
-  //   }
-  // }
+  //  &:hover {
+  //    background: rgba(0,0,0,.2);
+  //    path {
+  //      fill: #fff;
+  //    }
+  //  }
 
   path {
     filter: ${props => props.derecho === "true" ? 'drop-shadow(-2px 0px 0px #fff)' : 'drop-shadow(2px 0px 0px #fff)'};
