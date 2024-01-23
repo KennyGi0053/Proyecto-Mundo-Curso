@@ -75,13 +75,13 @@ const Home = () => {
       </div>
       <div className={style.ContainerFilters}>
 
+     <img className={style.garantia} src={Garantia} alt='garantia' />      
     <div className= {style.search}>
 
-      <SearchBar returnToFirstPage={returnToFirstPage}/>
+      <SearchBar  returnToFirstPage={returnToFirstPage}/>
     </div>
       </div>
   
-     <img className={style.garantia} src={Garantia} alt='garantia' />      
   <div className={style.cateCardContainer} >
     <div className={style.categoria} >
      <select className={style.cateselect} onChange={(event) => handleCategoria(event)}>
@@ -122,6 +122,10 @@ const Home = () => {
         )
       })}
 
+  </div>
+  </div>
+  </div>
+  )}
   <Paginado 
   cursosPorPagina={cursosPorPagina}
   allcursos={allcursos.length}
@@ -129,10 +133,6 @@ const Home = () => {
   currentPage={currentPage}
   setCurrentPage={setCurrentPage}
   />
-  </div>
-  </div>
-  </div>
-  )}
 </div>
   )
 }

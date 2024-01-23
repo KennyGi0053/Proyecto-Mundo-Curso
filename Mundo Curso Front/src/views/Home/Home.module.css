@@ -10,7 +10,8 @@
 
 .cateCardContainer {
     display: flex;
-    flex-direction: column;
+    flex-wrap: wrap;
+    flex-direction: row;
     align-items: center;
     text-align: center;
     justify-content: center;
@@ -86,6 +87,7 @@
     align-items: center;
     text-align: center;
     justify-content: center;
+    color: transparent;
 }
 
 .botonreset {
@@ -121,8 +123,13 @@
     justify-content: center;
     align-items: center;
     text-align: center;
-    height:100px;
+    height:150px;
     margin-left: 850px;
     z-index: 14;
 }
 
+.search {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

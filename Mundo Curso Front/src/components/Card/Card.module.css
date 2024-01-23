@@ -61,8 +61,8 @@
     margin-top: 50px;
     font-size: 20px;
     color: #050a30; /* Color naranja, puedes ajustarlo según tus preferencias */
-    font-weight: bold; /* Texto en negrita para destacar el precio */
-
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
 }
 
 .price::after {
