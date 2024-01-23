@@ -10,5 +10,4 @@ Mundo Curso es una plataforma educativa e-commerce diseñada para ofrecer una ex
   
 - 📚 **Variedad de Productos:** Ofrecemos una amplia variedad de productos relacionados con cada curso, seleccionados para mejorar la experiencia de aprendizaje.
   
-- 🛍️ **Carrito de Compras:** Los usuarios pueden agregar productos a su carrito de compras y realizar transacciones seguras directamente desde la plataforma.
   
