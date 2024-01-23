@@ -64,3 +64,12 @@ export const searchByName = (name) => {
     }
 
 }
+
+export const ORDER_BY_PRICE = 'ORDER_BY_PRICE'
+
+export const orderByPrice = (payload) => {
+    return {
+        type:ORDER_BY_PRICE,
+        payload
+    }
+}

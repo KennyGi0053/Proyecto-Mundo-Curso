@@ -4,7 +4,7 @@
         "description": "350 recetas para diabéticos",
         "price": "27",
         "image": "https://static-media.hotmart.com/bVsT0su2n0UymL5uOdh4DE5bbFM=/295x165/smart/filters:quality(100)/hotmart/product_pictures/fec6cf94-a2cf-4a98-9458-a5f4ffd40a33/CopiadeGreenandYellowCreativeHealthyfoodInstagramPost.png",
-        "categoria": "Salud y deportes",
+        "categoria": "Alimentos y cocina", 
         "formato": "Cursos online",
         "rating": "5"
     },
@@ -13,7 +13,7 @@
         "description": "Aprende en este curso como realizar comidas gourmet",
         "price": "15",
         "image": "https://www.cronica.com.ar/__export/1666085148350/sites/cronica/img/2022/10/18/chef_crop1666084947952.jpeg_2098901896.jpeg",
-        "categoria": "Gastronomía",
+        "categoria": "Alimentos y cocina",
         "formato": "Cursos online",
         "rating": "5"
     },
@@ -22,7 +22,7 @@
         "description": "Aprende sobre Programación Web",
         "price": "15",
         "image": "https://blog.hubspot.es/hs-fs/hubfs/media/lenguajesprogramacion.jpeg?width=610&height=406&name=lenguajesprogramacion.jpeg",
-        "categoria": "Software",
+        "categoria": "Tecnología",
         "formato": "Cursos online",
         "rating": "5"
     },
@@ -31,7 +31,7 @@
         "description": "Aprende el idioma ingles",
         "price": "15",
         "image": "https://www.unotv.com/uploads/2022/02/ingles-145003.jpg",
-        "categoria": "Educación",
+        "categoria": "Emprendimiento",
         "formato": "Cursos online",
         "rating": "5"
     },
@@ -40,7 +40,7 @@
         "description": "Aprende sobre el diseño gráfico",
         "price": "15",
         "image": "https://mediactiu.com/wp-content/uploads/2021/04/mejor-estudio-de-diseno-grafico-barcelona.jpg",
-        "categoria": "Educación",
+        "categoria": "Tecnología",
         "formato": "Cursos online",
         "rating": "5"
     }

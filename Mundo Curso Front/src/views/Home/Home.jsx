@@ -7,6 +7,7 @@ import style from './Home.module.css'
 import SearchBar from '../../components/SearchBar/SearchBar'
 import Carrusel from '../../components/Carrusel/Carrusel'
 import Garantia from '../../assets/Garantia.png'
+import Loader from '../../components/Loader/Loader'
 const Home = () => {
 
   const dispatch = useDispatch()
@@ -14,6 +15,15 @@ const Home = () => {
   const allcursos = useSelector(state => state.cursos)
   console.log('soy la categoria', categoria)
   
+  const [loading, setLoading] = useState(true)
+
+  useEffect(() => {
+    const timer = setTimeout(() => {
+      setLoading(false);
+    }, 2000);
+    return () => clearTimeout(timer);
+  }, []);
+
   useEffect(() => {
     dispatch(getCategoria())
   }, [dispatch])
@@ -42,6 +52,11 @@ const Home = () => {
     setCurrentPage(1)
 }
   return (
+    <div >
+      {loading ? (
+        <Loader background="url('path/to/background-image.jpg')" />
+      ) : (   
+    
     <div className={style.container}>
     <div className={style.CarruselMain}>
         <Carrusel/>
@@ -57,8 +72,8 @@ const Home = () => {
      <img className={style.garantia} src={Garantia} alt='garantia' />      
   <div className={style.cateCardContainer} >
     <div className={style.categoria} >
-     <select onChange={(event) => handleCategoria(event)}>
-      <option value="">Selecciona una categoría</option>
+     <select className={style.cateselect} onChange={(event) => handleCategoria(event)}>
+      <option  value="">Selecciona una categoría</option>
       {
         categoria?.map((cate, index) => (
           <option key={index} value={cate.name}>
@@ -94,6 +109,8 @@ const Home = () => {
   />
   </div>
   </div>
+  </div>
+  )}
 </div>
   )
 }

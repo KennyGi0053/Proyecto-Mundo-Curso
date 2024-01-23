@@ -1,5 +1,5 @@
 const { Curso, Formato } = require('../db')
-const getcursosid = async() => {
+const getcursosid = async(id) => {
 
     let curso = await Curso.findBypk(id)
         
