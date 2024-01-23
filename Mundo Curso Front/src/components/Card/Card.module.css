@@ -19,7 +19,6 @@
     -webkit-transform:scale(1.1);transform:scale(1.1);
     transform: scale(1.1);
     box-shadow: 30px 30px 30px rgba(0, 0, 0, 0.2); /* Agrega la sombra en el hover */
-    background-color: rgba(248, 71, 100, 0.2); /* Cambia el color de fondo al pasar el mouse */
 
 }
 

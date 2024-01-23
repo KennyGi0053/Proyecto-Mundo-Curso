@@ -107,6 +107,8 @@ const Home = () => {
   </div>
 
     
+
+  </div>
   <div className={style.card}>
     {currentCursos?.map((cu) => {
       
@@ -121,8 +123,6 @@ const Home = () => {
         key={cu.id}/>
         )
       })}
-
-  </div>
   </div>
   </div>
   )}
