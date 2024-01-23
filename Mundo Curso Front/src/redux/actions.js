@@ -73,3 +73,19 @@ export const orderByPrice = (payload) => {
         payload
     }
 }
+
+export const GET_RESET = 'GET_RESET'
+
+export const getReset = () => {
+    return ({
+        type: GET_RESET,
+        
+    })
+}
+
+export const GET_RESET_PRICE = 'GET_RESET_PRICE'
+export const getResetPrice = () => {
+    return {
+        type: GET_RESET_PRICE
+    }
+}

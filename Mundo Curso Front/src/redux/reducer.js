@@ -1,4 +1,4 @@
-import { FILTER_BY_CATEGORIA, GET_CATEGORIA, GET_CURSOS, ORDER_BY_PRICE, SEARCH_BY_NAME } from "./actions"
+import { FILTER_BY_CATEGORIA, GET_CATEGORIA, GET_CURSOS, GET_RESET, GET_RESET_PRICE, ORDER_BY_PRICE, SEARCH_BY_NAME } from "./actions"
 
 
 
@@ -69,7 +69,7 @@ const rootReducer = (state = initialState, action) => {
 
             case ORDER_BY_PRICE:
               const CursoByPrice = action.payload === 'asc' ?
-              state.cursos.sort((a,b) => {
+              state.allcursos.sort((a,b) => {
                 if (a.price > b.price) return 1
                 if (b.price > a.price) return -1
                 return 0
@@ -81,8 +81,19 @@ const rootReducer = (state = initialState, action) => {
               })
               return {
                 ...state,
-                cursos: CursoByPrice
+                allcursos: CursoByPrice
               }
+            case GET_RESET:
+              return {
+                ...state,
+                cursos: state.allcursos
+              }
+
+              case GET_RESET_PRICE:
+                return {
+                  ...state,
+                  cursos: [...state.allcursos]
+                }
     default:
         return {...state}
         }

@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react'
 import { useDispatch, useSelector } from 'react-redux'
-import { filterByCategoria, getCategoria, getCursos, orderByPrice } from '../../redux/actions'
+import { filterByCategoria, getCategoria, getCursos, getReset, getResetPrice, orderByPrice } from '../../redux/actions'
 import Card from '../../components/Card/Card'
 import Paginado from '../../components/Paginado/Paginado'
 import style from './Home.module.css'
@@ -41,6 +41,12 @@ const Home = () => {
    const handleOrderByPrice = (event) => {
     dispatch(orderByPrice(event.target.value))
     order ? setOrder(false) : setOrder(true)
+    setCurrentPage(1)
+   }
+
+   const handleReset = () => {
+    dispatch(getReset())
+    dispatch(getResetPrice())
     setCurrentPage(1)
    }
 
@@ -88,6 +94,16 @@ const Home = () => {
         ))
       }
     </select>
+  <div className={style.contenedorprice}>
+    <select className={style.selectprice} onChange={event => handleOrderByPrice(event)} defaultValue='default'>
+    <option  value="">Ordenar por precio</option>
+      <option value = 'desc'>Mayor Precio</option>
+      <option value = 'asc'>Menor Precio</option>
+    </select>
+  </div>
+  <div className={style.contenedorReset}>
+    <button className={style.botonreset} onClick={handleReset}>Resetear Filtros</button>
+  </div>
   </div>
 
     
