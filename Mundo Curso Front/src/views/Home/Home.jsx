@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react'
 import { useDispatch, useSelector } from 'react-redux'
-import { filterByCategoria, getCategoria, getCursos } from '../../redux/actions'
+import { filterByCategoria, getCategoria, getCursos, orderByPrice } from '../../redux/actions'
 import Card from '../../components/Card/Card'
 import Paginado from '../../components/Paginado/Paginado'
 import style from './Home.module.css'
@@ -16,7 +16,7 @@ const Home = () => {
   console.log('soy la categoria', categoria)
   
   const [loading, setLoading] = useState(true)
-
+  const [order, setOrder] = useState(true)
   useEffect(() => {
     const timer = setTimeout(() => {
       setLoading(false);
@@ -36,6 +36,12 @@ const Home = () => {
    const handleCategoria = (event) => {
      dispatch(filterByCategoria(event.target.value))
      setCurrentPage(1)
+   }
+
+   const handleOrderByPrice = (event) => {
+    dispatch(orderByPrice(event.target.value))
+    order ? setOrder(false) : setOrder(true)
+    setCurrentPage(1)
    }
 
   const [currentPage, setCurrentPage] = useState(1)

@@ -1,4 +1,4 @@
-import { FILTER_BY_CATEGORIA, GET_CATEGORIA, GET_CURSOS, SEARCH_BY_NAME } from "./actions"
+import { FILTER_BY_CATEGORIA, GET_CATEGORIA, GET_CURSOS, ORDER_BY_PRICE, SEARCH_BY_NAME } from "./actions"
 
 
 
@@ -67,7 +67,22 @@ const rootReducer = (state = initialState, action) => {
                 cursos: action.payload
             }
 
-            
+            case ORDER_BY_PRICE:
+              const CursoByPrice = action.payload === 'asc' ?
+              state.cursos.sort((a,b) => {
+                if (a.price > b.price) return 1
+                if (b.price > a.price) return -1
+                return 0
+              }) :
+              state.cursos.sort((a,b) => {
+                if (a.price > b.price) return -1
+                if (b.price > a.price) return 1
+                return 0
+              })
+              return {
+                ...state,
+                cursos: CursoByPrice
+              }
     default:
         return {...state}
         }
