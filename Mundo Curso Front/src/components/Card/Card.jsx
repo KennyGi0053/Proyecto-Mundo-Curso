@@ -11,7 +11,10 @@ const Card = (props) => {
             {/* <p>⭐{props.rating}</p> */}
             <p className={style.price}>{props.price}</p>
             <p>{props.categoria}</p>
+            <div className={style.botoncontainer}>
+
             <button className={style.botonDetalles}>Detalles</button>
+            </div>
 
         </div>
     </div>
