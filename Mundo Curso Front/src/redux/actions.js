@@ -18,7 +18,7 @@ export const GET_CURSOSID = 'GET_CURSOSID'
 
 export const getCursosId = (id) => {
     return async(dispatch) => {
-        const response = await axios.get(`http://localhost:3001/curso/${id}`)
+        const response = await axios.get(`http://localhost:3001/curso/id/${id}`)
         const curso = response.data
 
         dispatch({
@@ -55,7 +55,7 @@ export const SEARCH_BY_NAME = 'SEARCH_BY_NAME'
 export const searchByName = (name) => {
 
     return async(dispatch) => {
-        const response = await axios.get(`http://localhost:3001/curso/${name}`)
+        const response = await axios.get(`http://localhost:3001/curso/name/${name}`)
         const Cursos = response.data
         return dispatch ({
             type: SEARCH_BY_NAME,

@@ -8,7 +8,7 @@ const cursoRouter = Router()
 
 
 cursoRouter.get('/', cursos)
-cursoRouter.get('/:name',cursosName)
-cursoRouter.get('/:id', cursosid)
+cursoRouter.get('/name/:name',cursosName)
+cursoRouter.get('/id/:id', cursosid)
 
 module.exports = cursoRouter

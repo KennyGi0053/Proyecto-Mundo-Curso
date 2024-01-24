@@ -37,7 +37,8 @@ const { Curso, Formato, Categoria} = sequelize.models;
 // Product.hasMany(Reviews);
 Curso.belongsToMany(Formato, {through: 'CursoFormato'});
 Formato.belongsToMany(Curso, { through: 'CursoFormato'});
-Categoria.belongsToMany(Curso, {through: 'CursoCategoria'})
+Categoria.belongsToMany(Curso, {through: 'CursoCategoria'});
+
 module.exports = {
   ...sequelize.models, // para poder importar los modelos así: const { Product, User } = require('./db.js');
   conn: sequelize,     // para importart la conexión { conn } = require('./db.js');
