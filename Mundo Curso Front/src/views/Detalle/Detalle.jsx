@@ -36,8 +36,9 @@ const Detalle = () => {
                 <h1 className={style.h1}>{cursosId.name}</h1>
 
                 <img className={style.imagen} src={cursosId.image}></img>
-                <h2 className={style.description}>Descripción</h2>
-
+                <h2 className={style.description}>{cursosId.descripción}</h2>
+                <h2 className={style.categoria}>{cursosId.Categoría}</h2>
+                <h2 className={style.precio}>{cursosId.price}</h2>
             </div>
         )}
 

@@ -1,4 +1,4 @@
-import { FILTER_BY_CATEGORIA, GET_CATEGORIA, GET_CURSOS, GET_RESET, GET_RESET_PRICE, ORDER_BY_PRICE, SEARCH_BY_NAME } from "./actions"
+import { FILTER_BY_CATEGORIA, GET_CATEGORIA, GET_CURSOS, GET_CURSOSID, GET_RESET, GET_RESET_PRICE, ORDER_BY_PRICE, SEARCH_BY_NAME } from "./actions"
 
 
 
@@ -24,6 +24,11 @@ const rootReducer = (state = initialState, action) => {
                 allcursos: action.payload,
                 cursosall: action.payload
             }
+            case GET_CURSOSID:
+              return {
+                ...state,
+                cursosId: action.payload
+              }
 
         case GET_CATEGORIA:
             return {

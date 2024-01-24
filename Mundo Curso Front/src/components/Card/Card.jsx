@@ -13,7 +13,7 @@ const Card = (props) => {
             <p className={style.price}>{props.price}</p>
             <p>{props.categoria}</p>
             <div className={style.botoncontainer}>
-            <Link to={`/detail/${id}`}>
+            <Link to={`/detail/${id}`} style={{ textDecoration: 'none' }}>
             <button className={style.botonDetalles}>Detalles</button>
             </Link>
             </div>
