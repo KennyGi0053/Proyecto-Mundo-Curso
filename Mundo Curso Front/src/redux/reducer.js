@@ -12,9 +12,9 @@ const initialState = {
 
 const rootReducer = (state = initialState, action) => {
     
-    let allcursos;
-    let CursosWithCategoria;
-    let updatedSelectedCategorias; // Declarar la variable fuera del bloque switch
+    // let allcursos;
+    // let CursosWithCategoria;
+    // let updatedSelectedCategorias; // Declarar la variable fuera del bloque switch
     switch (action.type) {
         case GET_CURSOS:
             return {
@@ -30,37 +30,47 @@ const rootReducer = (state = initialState, action) => {
             }
 
             case FILTER_BY_CATEGORIA:
-      allcursos = state.allcursos;
+              const allcursos = state.allcursos
+              const CursosPorCategoria = action.payload === 'all'
 
-      // Copiar las categorías seleccionadas del estado
-      updatedSelectedCategorias = [...state.selectedCategorias];
+              ? allcursos
 
-      if (action.payload === "all") {
-        // Si se selecciona "all," mostrar todos los cursos y reiniciar las categorías seleccionadas
-        CursosWithCategoria = allcursos;
-        updatedSelectedCategorias = [];
-      } else {
-        if (updatedSelectedCategorias.includes(action.payload)) {
-          // Si la categoría ya está seleccionada, quítala
-          updatedSelectedCategorias = updatedSelectedCategorias.filter(
-            (cat) => cat !== action.payload
-          );
-        } else {
-          // Si no está seleccionada, agrégala
-          updatedSelectedCategorias.push(action.payload);
-        }
+              : allcursos.filter(cur => cur.categoria.includes(action.payload))
+              return {
+                ...state,
+                cursos: CursosPorCategoria
+              }
+      // allcursos = state.allcursos;
 
-        // Filtrar los cursos basados en las categorías seleccionadas
-        CursosWithCategoria = allcursos.filter((cur) =>
-          updatedSelectedCategorias.every((cat) => cur.categoria.includes(cat))
-        );
-      }
+      // // Copiar las categorías seleccionadas del estado
+      // updatedSelectedCategorias = [...state.selectedCategorias];
 
-      return {
-        ...state,
-        cursos: CursosWithCategoria,
-        selectedCategorias: updatedSelectedCategorias
-      };
+      // if (action.payload === "all") {
+      //   // Si se selecciona "all," mostrar todos los cursos y reiniciar las categorías seleccionadas
+      //   CursosWithCategoria = allcursos;
+      //   updatedSelectedCategorias = [];
+      // } else {
+      //   if (updatedSelectedCategorias.includes(action.payload)) {
+      //     // Si la categoría ya está seleccionada, quítala
+      //     updatedSelectedCategorias = updatedSelectedCategorias.filter(
+      //       (cat) => cat !== action.payload
+      //     );
+      //   } else {
+      //     // Si no está seleccionada, agrégala
+      //     updatedSelectedCategorias.push(action.payload);
+      //   }
+
+      //   // Filtrar los cursos basados en las categorías seleccionadas
+      //   CursosWithCategoria = allcursos.filter((cur) =>
+      //     updatedSelectedCategorias.every((cat) => cur.categoria.includes(cat))
+      //   );
+      // }
+
+      // return {
+      //   ...state,
+      //   cursos: CursosWithCategoria,
+      //   selectedCategorias: updatedSelectedCategorias
+      // };
         case SEARCH_BY_NAME:
             return {
                 ...state,

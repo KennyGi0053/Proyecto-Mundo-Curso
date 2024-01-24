@@ -102,7 +102,7 @@ const Home = () => {
     </select>
   </div>
   <div className={style.contenedorReset}>
-    <button className={style.botonreset} onClick={handleReset}>Resetear Filtros</button>
+    <button className={style.botonreset} onClick={handleReset}>Limpiar Filtros</button>
   </div>
   </div>
 
