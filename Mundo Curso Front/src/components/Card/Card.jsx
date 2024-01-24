@@ -10,9 +10,9 @@ const Card = (props) => {
             <img className={style.image} src={props.image} alt=""/>
             <p className={style.name}>{props.name}</p>
             {/* <p>⭐{props.rating}</p> */}
-            <p className={style.price}>{props.price}</p>
             <p>{props.categoria}</p>
             <div className={style.botoncontainer}>
+            <p className={style.price}>{props.price}</p>
             <Link to={`/detail/${id}`} style={{ textDecoration: 'none' }}>
             <button className={style.botonDetalles}>Detalles</button>
             </Link>

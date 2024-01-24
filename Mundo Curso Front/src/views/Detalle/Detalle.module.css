@@ -30,8 +30,48 @@
     height: 400px;
     width: 500px;
     margin-right: 100px;
+    border: solid 2px;
+    border-radius: 20px;
+}
+.imagen:hover {
+    -webkit-transform:scale(1.1);transform:scale(1.1);
+    transform: scale(1.1);
+    box-shadow: 30px 30px 30px rgba(0, 0, 0, 0.2); /* Agrega la sombra en el hover */
+
 }
 
 .description {
     width: 550px;
+    line-height: 1.5;
+    
+}
+
+.precioboton {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    margin: 80px;
+}
+
+.precio {
+    margin: 10px;
+}
+
+.boton {
+    height: 40px;
+    color: white;
+    background-color: #050a30;
+    border: solid 1px;
+    border-radius: 10px;
+    
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    transition: background-color 0.3s ease;
+    cursor: pointer;
+}
+
+.boton:hover {
+    color: #050a30;
+    background-color: white; /* Cambia el color de fondo al pasar el mouse */
 }

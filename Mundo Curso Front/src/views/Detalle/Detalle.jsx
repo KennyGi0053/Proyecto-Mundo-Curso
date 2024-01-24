@@ -42,7 +42,11 @@ const Detalle = () => {
 
                 </div>
                 <h2 className={style.categoria}>Categoría {cursosId.categoria}</h2>
+                <div className={style.precioboton}> 
                 <h2 className={style.precio}>Precio ${cursosId.price}</h2>
+                <button className={style.boton}>Comprar</button>
+
+                </div>
             </div>
             </div>
         )}
