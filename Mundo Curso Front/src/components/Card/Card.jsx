@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom'
 import style from './Card.module.css'
 const Card = (props) => {
 
@@ -12,8 +13,9 @@ const Card = (props) => {
             <p className={style.price}>{props.price}</p>
             <p>{props.categoria}</p>
             <div className={style.botoncontainer}>
-
+            <Link to={`/detail/${id}`}>
             <button className={style.botonDetalles}>Detalles</button>
+            </Link>
             </div>
 
         </div>
