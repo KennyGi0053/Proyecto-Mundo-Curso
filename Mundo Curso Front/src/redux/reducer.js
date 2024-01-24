@@ -6,8 +6,9 @@ const initialState = {
     categoria: [],
     cursos: [],
     allcursos: [],
-    selectedCategorias: [] // Nuevo estado para almacenar las categorías seleccionadas
-
+    selectedCategorias: [], // Nuevo estado para almacenar las categorías seleccionadas
+    cursosall: [],
+    cursosId: [],
 }
 
 const rootReducer = (state = initialState, action) => {
@@ -20,7 +21,8 @@ const rootReducer = (state = initialState, action) => {
             return {
                 ...state,
                 cursos: action.payload,
-                allcursos: action.payload
+                allcursos: action.payload,
+                cursosall: action.payload
             }
 
         case GET_CATEGORIA:
@@ -31,6 +33,7 @@ const rootReducer = (state = initialState, action) => {
 
             case FILTER_BY_CATEGORIA:
               const allcursos = state.allcursos
+              const cursosall = state.cursosall
               const CursosPorCategoria = action.payload === 'all'
 
               ? allcursos
@@ -38,7 +41,9 @@ const rootReducer = (state = initialState, action) => {
               : allcursos.filter(cur => cur.categoria.includes(action.payload))
               return {
                 ...state,
-                cursos: CursosPorCategoria
+                cursos: CursosPorCategoria,
+                allcursos: allcursos,
+                cursosall: cursosall,
               }
       // allcursos = state.allcursos;
 
@@ -79,7 +84,7 @@ const rootReducer = (state = initialState, action) => {
 
             case ORDER_BY_PRICE:
               const CursoByPrice = action.payload === 'asc' ?
-              state.allcursos.sort((a,b) => {
+              state.cursos.sort((a,b) => {
                 if (a.price > b.price) return 1
                 if (b.price > a.price) return -1
                 return 0
@@ -94,14 +99,18 @@ const rootReducer = (state = initialState, action) => {
                 allcursos: CursoByPrice
               }
             case GET_RESET:
+              console.log('Recibida la acción GET_RESET');
               return {
                 ...state,
-                cursos: state.allcursos
+                cursos: state.allcursos,
+                selectedCategorias: []
               }
 
               case GET_RESET_PRICE:
+                console.log('Recibida la acción GET_RESET_PRICE');
                 return {
                   ...state,
+                  allcursos: [...state.allcursos],
                   cursos: [...state.allcursos]
                 }
     default:

@@ -44,9 +44,9 @@
     justify-content: center;
     text-align: center;
     height: 40px;
-    border: solid 1px;
+    border: solid 2px;
     border-radius: 20px;
-    border-color: rgb(248,71,100);
+    border-color: rgb(239,215,117);
     font-size: 15px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     transition: background-color 0.3s ease;
@@ -70,9 +70,9 @@
     justify-content: center;
     text-align: center;
     height: 40px;
-    border: solid 1px;
+    border: solid 2px;
     border-radius: 20px;
-    border-color: rgb(248,71,100);
+    border-color: rgb(239,215,117);
     font-size: 15px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     transition: background-color 0.3s ease;
