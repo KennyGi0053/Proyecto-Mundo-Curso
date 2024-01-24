@@ -31,14 +31,19 @@ const Detalle = () => {
         {loading ? (
             <Loader/>
         ) : (
-
             <div className={style.container}>
-                <h1 className={style.h1}>{cursosId.name}</h1>
 
+            <div className={style.container2}>
+                <h2 className={style.h1}>{cursosId.name}</h2>
+
+                <div className={style.containerdescripimagen}>
                 <img className={style.imagen} src={cursosId.image}></img>
-                <h2 className={style.description}>{cursosId.descripción}</h2>
-                <h2 className={style.categoria}>{cursosId.Categoría}</h2>
-                <h2 className={style.precio}>{cursosId.price}</h2>
+                <h2 className={style.description}>{cursosId.description}</h2>
+
+                </div>
+                <h2 className={style.categoria}>Categoría {cursosId.categoria}</h2>
+                <h2 className={style.precio}>Precio ${cursosId.price}</h2>
+            </div>
             </div>
         )}
 
