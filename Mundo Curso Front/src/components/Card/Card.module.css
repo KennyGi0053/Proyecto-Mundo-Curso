@@ -91,7 +91,7 @@
     cursor: pointer;
 }
 
-.botonDetalles :hover {
+.botonDetalles:hover {
     color: #050a30;
     background-color: white; /* Cambia el color de fondo al pasar el mouse */
 }
