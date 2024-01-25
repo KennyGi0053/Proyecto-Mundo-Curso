@@ -50,7 +50,13 @@
 .categoria {
     color: #050a30;
     display: flex;
-    margin: 70px;
+    margin: 30px;
+}
+
+.formato {
+    display: flex;
+    color: #050a30;
+    margin: 30px;
 }
 .precioboton {
     display: flex;

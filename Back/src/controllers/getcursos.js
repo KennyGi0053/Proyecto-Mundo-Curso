@@ -18,7 +18,8 @@ const getcursos = async() => {
             price: curso.price,
             image: curso.image,
             rating: curso.rating,
-            categoria: curso.categoria
+            categoria: curso.categoria,
+            formato: curso.formato
             
         }
     })

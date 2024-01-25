@@ -41,7 +41,8 @@ const Detalle = () => {
                 <h2 className={style.description}>{cursosId.description}</h2>
 
                 </div>
-                <h2 className={style.categoria}>Categoría {cursosId.categoria}</h2>
+                <h2 className={style.categoria}>Categoría: {cursosId.categoria}</h2>
+                <h2 className={style.formato}>Formato: {cursosId.formato}</h2>
                 <div className={style.precioboton}> 
                 <h2 className={style.precio}>Precio ${cursosId.price}</h2>
                 <button className={style.boton}>Comprar</button>

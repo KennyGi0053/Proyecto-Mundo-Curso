@@ -3,7 +3,7 @@
         "name": "Alimentos y cocina"
     },
     {
-        "name": "Belleza"
+        "name": "Moda y Belleza"
     },
     {
         "name": "Animales"
@@ -15,16 +15,25 @@
         "name": "Emprendimiento"
     },
     {
-        "name": "Salud"
+        "name": "Salud y Deportes"
     },
     {
         "name": "Sexualidad"
     },
     {
-        "name": "Ebooks"
+        "name": "Plantas"
     },
     {
         "name": "Finanzas e inversiones"
+    },
+    {
+        "name": "Idiomas"
+    },
+    {
+        "name": "Espiritualidad"
+    },
+    {
+        "name": "Desarrollo personal"
     }
     
     

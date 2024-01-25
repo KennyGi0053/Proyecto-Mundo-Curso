@@ -5,15 +5,15 @@
         "price": "27",
         "image": "https://static-media.hotmart.com/bVsT0su2n0UymL5uOdh4DE5bbFM=/295x165/smart/filters:quality(100)/hotmart/product_pictures/fec6cf94-a2cf-4a98-9458-a5f4ffd40a33/CopiadeGreenandYellowCreativeHealthyfoodInstagramPost.png",
         "categoria": "Alimentos y cocina", 
-        "formato": "Cursos online",
+        "formato": "e-Book",
         "rating": "5"
     },
     {
-        "name": "Chef",
-        "description": "Aprende en este curso como realizar comidas gourmet",
-        "price": "15",
-        "image": "https://www.cronica.com.ar/__export/1666085148350/sites/cronica/img/2022/10/18/chef_crop1666084947952.jpeg_2098901896.jpeg",
-        "categoria": "Alimentos y cocina",
+        "name": "English Now",
+        "description": "Aprende desde cero Inglés de una manera sencilla, completa y con contenido aplicable a la vida Real. Inicia conversaciones con confianza, manejando no sólo estructuras gramaticales, sino modismos y expresiones populares que utilizan los nativos. La estructura y sistemas de este programa, te permitirán avanzar y motivarte a seguir aprendiendo. Las clases son divertidas y contarás con sistemas de evaluación y acompañamiento para asegurarte que vas por buen camino. Este programa está dirigido a personas que no tienen conocimientos en Inglés o conocimientos muy básicos, la idea es que vean que es posible aprender inglés desde cero y hablar con confianza.",
+        "price": "397",
+        "image": "https://static-media.hotmart.com/MAywMLhfWFwWb5BS9DmVOi_uUyo=/300x300/smart/filters:format(webp):background_color(white)/hotmart/product_pictures/e9b6705b-9d79-41e3-a830-5c072acd3d3e/fotodeperfil.jpg?w=920",
+        "categoria": "Idiomas",
         "formato": "Cursos online",
         "rating": "5"
     },
