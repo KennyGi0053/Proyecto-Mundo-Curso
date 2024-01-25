@@ -19,7 +19,8 @@ const getcursos = async() => {
             image: curso.image,
             rating: curso.rating,
             categoria: curso.categoria,
-            formato: curso.formato
+            formato: curso.formato,
+            paymentUrl: curso.paymentUrl
             
         }
     })

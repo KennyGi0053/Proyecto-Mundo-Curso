@@ -36,6 +36,10 @@ module.exports = (sequelize) => {
     rating: {
       type: DataTypes.STRING,
       allowNull: false
+    },
+    paymentUrl: {
+      type: DataTypes.STRING,
+      allowNull: false
     }
 
   }, {timestamps: false,

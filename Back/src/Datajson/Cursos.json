@@ -1,12 +1,14 @@
 [
     {
         "name": "350 recetas para diabéticos",
-        "description": "Novedoso programa de alimentación que reinicia el páncreas, aumenta la insulina y normaliza el azúcar en 50 días. ¿Has comprado alguna vez algo que no ha resultado ser como esperabas?, Probablemente, has intentado muchos otros métodos para normalizar tu glucosa y te has decepcionado al perder dinero. Estoy tan segura de la calidad de mi método que estoy lista para realizar un reembolso completo dentro de 7 días luego de la compra, si no has visto resultados.",
+        "description": "ESTE PROGRAMA DE 7 DIAS es una REPROGRAMACION DEL HÍGADO, para que tu cuerpo empiece a PRODUCIR ENERGIA A PARTIR DE LA GRASA y ¡NO! DEL AZUCAR como lo hace en este momento. Antes de que los nutrientes y minerales de los alimentos ingresen a la sangre deben ser PROCESADOS PREVIAMENTE POR EL HÍGADO, es la forma en que EL PANCREAS se da cuenta que hay AZUCAR circulando en la sangre e inicia a producir insulina. SI ANALIZAS BIEN la cadena metabólica verás que ES MUY SIMPLE MODIFICARLA, si en vez de utilizar azúcar para llenar las células de energía UTILIZAMOS GRASA. ¿Cuál Sería El Resultado?, Reducción del azúcar en la sangre, Descanso del páncreas, restauración del daño,  Potenciación en la producción de insulina",
         "price": "27",
         "image": "https://static-media.hotmart.com/bVsT0su2n0UymL5uOdh4DE5bbFM=/295x165/smart/filters:quality(100)/hotmart/product_pictures/fec6cf94-a2cf-4a98-9458-a5f4ffd40a33/CopiadeGreenandYellowCreativeHealthyfoodInstagramPost.png",
         "categoria": "Alimentos y cocina", 
         "formato": "e-Book",
-        "rating": "5"
+        "rating": "5",
+        "paymentUrl": "https://pay.hotmart.com/J87886216P?off=yprvlch7&ref=R88961493S&bid=1706144616089"
+        
     },
     {
         "name": "English Now",
@@ -15,7 +17,8 @@
         "image": "https://static-media.hotmart.com/MAywMLhfWFwWb5BS9DmVOi_uUyo=/300x300/smart/filters:format(webp):background_color(white)/hotmart/product_pictures/e9b6705b-9d79-41e3-a830-5c072acd3d3e/fotodeperfil.jpg?w=920",
         "categoria": "Idiomas",
         "formato": "Cursos online",
-        "rating": "5"
+        "rating": "5",
+        "paymentUrl": "https://pay.hotmart.com/J87886216P?off=yprvlch7&ref=R88961493S&bid=1706144616089"
     },
     {
         "name": "Programación",
@@ -24,7 +27,8 @@
         "image": "https://blog.hubspot.es/hs-fs/hubfs/media/lenguajesprogramacion.jpeg?width=610&height=406&name=lenguajesprogramacion.jpeg",
         "categoria": "Tecnología",
         "formato": "Cursos online",
-        "rating": "5"
+        "rating": "5",
+        "paymentUrl": "https://pay.hotmart.com/J87886216P?off=yprvlch7&ref=R88961493S&bid=1706144616089"
     },
     {
         "name": "Ingles",
@@ -33,7 +37,8 @@
         "image": "https://www.unotv.com/uploads/2022/02/ingles-145003.jpg",
         "categoria": "Emprendimiento",
         "formato": "Cursos online",
-        "rating": "5"
+        "rating": "5",
+        "paymentUrl": "https://pay.hotmart.com/J87886216P?off=yprvlch7&ref=R88961493S&bid=1706144616089"
     },
     {
         "name": "Diseño gráfico",
@@ -42,7 +47,8 @@
         "image": "https://mediactiu.com/wp-content/uploads/2021/04/mejor-estudio-de-diseno-grafico-barcelona.jpg",
         "categoria": "Tecnología",
         "formato": "Cursos online",
-        "rating": "5"
+        "rating": "5",
+        "paymentUrl": "https://pay.hotmart.com/J87886216P?off=yprvlch7&ref=R88961493S&bid=1706144616089"
     }
    
 ]

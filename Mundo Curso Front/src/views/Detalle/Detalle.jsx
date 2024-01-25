@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react'
 import { useDispatch, useSelector } from 'react-redux'
-import { useParams } from 'react-router-dom'
+import { Link, useParams } from 'react-router-dom'
 import { getCursosId } from '../../redux/actions'
 import style from './Detalle.module.css'
 import Loader from '../../components/Loader/Loader'
@@ -25,7 +25,8 @@ const Detalle = () => {
       }, []);
 
       const cursosId = useSelector((state) => state.cursosId)
-  
+
+    
       return (
     <div className={style.loading}>
         {loading ? (
@@ -45,7 +46,10 @@ const Detalle = () => {
                 <h2 className={style.formato}>Formato: {cursosId.formato}</h2>
                 <div className={style.precioboton}> 
                 <h2 className={style.precio}>Precio ${cursosId.price}</h2>
-                <button className={style.boton}>Comprar</button>
+                <Link to={cursosId.paymentUrl} target="_blank" rel="noopener noreferrer">
+
+                <button className={style.boton} >Comprar </button>
+                </Link>
 
                 </div>
             </div>
