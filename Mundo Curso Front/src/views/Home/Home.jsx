@@ -78,7 +78,7 @@ const Home = () => {
      <img className={style.garantia} src={Garantia} alt='garantia' />      
     <div className= {style.search}>
 
-      <SearchBar  returnToFirstPage={returnToFirstPage}/>
+      <SearchBar className={style.search} returnToFirstPage={returnToFirstPage}/>
     </div>
       </div>
   

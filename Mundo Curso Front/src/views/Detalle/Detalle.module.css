@@ -32,6 +32,7 @@
     margin-right: 100px;
     border: solid 2px;
     border-radius: 20px;
+    margin-top: 50px;
 }
 .imagen:hover {
     -webkit-transform:scale(1.1);transform:scale(1.1);
@@ -41,22 +42,27 @@
 }
 
 .description {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: left;
+    align-items: center;
     width: 550px;
-    line-height: 1.5;
     color: #050a30;
-    
+    line-height: 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
 }
 
 .categoria {
     color: #050a30;
     display: flex;
-    margin: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .formato {
     display: flex;
     color: #050a30;
-    margin: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 .precioboton {
     display: flex;

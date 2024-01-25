@@ -61,12 +61,56 @@ flex-wrap: wrap;
 
 }
 
-.garantia {
-display: flex;
-text-align: center;
-align-items: center;
-justify-content: center;
-margin-top: 50px;
-margin: 250px;
-height: 150px;
+
+
+@media screen and (max-width: 830px){
+    .Container {
+      display: flex;
+      align-items: center;
+      
+      
+      flex-direction: row;
+      justify-content: space-between;
+     }
+  
+     
+     .p {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+      gap: 20px;
+      flex-direction: row;
+   }
+
+   .iconHome {
+    display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 10px;
+      flex-direction: row;
+      
+   }
+   
+   .logo {
+       display: flex;
+       margin: 0px;
+       
+    }
+    
+    .HomeContainer {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-direction: row;
+        margin-left: 20px;
+    }
+    
+    .Bienvenido {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: row;
+        font-size: 15px;
+        margin-right: 50px;
+    }
 }

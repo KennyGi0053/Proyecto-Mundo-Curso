@@ -7,7 +7,8 @@
         "categoria": "Alimentos y cocina", 
         "formato": "e-Book",
         "rating": "5",
-        "paymentUrl": "https://pay.hotmart.com/J87886216P?off=yprvlch7&ref=R88961493S&bid=1706144616089"
+        "paymentUrl": "https://go.hotmart.com/R88961493S?ap=ec1c",
+        "adicional": "https://sonriesinazucar.com/"
         
     },
     {
@@ -18,37 +19,52 @@
         "categoria": "Idiomas",
         "formato": "Cursos online",
         "rating": "5",
-        "paymentUrl": "https://pay.hotmart.com/J87886216P?off=yprvlch7&ref=R88961493S&bid=1706144616089"
+        "paymentUrl": "https://go.hotmart.com/Y85331764P?ap=2433",
+        "adicional": "https://go.hotmart.com/Y85331764P"
     },
     {
-        "name": "Programación",
-        "description": "Aprende sobre Programación Web",
-        "price": "15",
-        "image": "https://blog.hubspot.es/hs-fs/hubfs/media/lenguajesprogramacion.jpeg?width=610&height=406&name=lenguajesprogramacion.jpeg",
-        "categoria": "Tecnología",
+        "name": "21 dias de transformación real y duradera",
+        "description": "Este entrenamiento de 21 días combina 2 técnicas ancestrales: El Ho’oponopono y la meditación guiada, para tratar la ansiedad y los ataques de pánico principalmente. Está diseñado para que la persona que toma el entrenamiento complete 1 lección de forma diaria hasta culminar los 21 días. Los métodos ancestrales o espirituales ayudan a superar estados mentales bajos de conciencia, tales como la depresión, baja autoestima, ansiedad, entre otros; pero no está comprobado científicamente que sean el tratamiento adecuado que deba recibir una persona que presente dichos estados, ciertos casos requieren de ayuda y tratamiento clínico especializado. Vivir alguno o todos estos estados bajos de conciencia es más común de lo que imaginas, así que no debes sentirte mal, pero si debes ocuparte, Hoy estás a un solo paso de comenzar tu proceso de transformación profunda.",
+        "price": "35",
+        "image": "https://static-media.hotmart.com/pqDtnm4k8X9FMtWUQ8Ozg1lihMA=/295x165/smart/filters:quality(100)/hotmart/product_pictures/f92c2049-57cc-4442-b26e-558250078a88/21diasdetransformacioninterior.png",
+        "categoria": "Espiritualidad",
         "formato": "Cursos online",
         "rating": "5",
-        "paymentUrl": "https://pay.hotmart.com/J87886216P?off=yprvlch7&ref=R88961493S&bid=1706144616089"
+        "paymentUrl": "https://go.hotmart.com/C89543527Q?ap=4a70",
+        "adicional": "https://go.hotmart.com/C89543527Q"
     },
     {
-        "name": "Ingles",
-        "description": "Aprende el idioma ingles",
-        "price": "15",
-        "image": "https://www.unotv.com/uploads/2022/02/ingles-145003.jpg",
+        "name": "9 Pasos para una limpieza facial profesional",
+        "description": "¿Te gustaría aprender a limpiar tu piel, en tan solo 9 pasos? Con el MasterClass 9 PASOS PARA UNA LIMPIEZA FACIAL, aprenderás y destacarás tus habilidades en el cuido de la piel, como toda una profesional. Desarrollado por MAYLIN SÁNCHEZ, nutricionista con 13 años de experiencia, cosmetóloga y cosmiatra con 8 años de experiencia. Dueña de la estética Nutribella.ca, ha logrado innovar en su campo brindando el mejor servicio a sus pacientes. Su pasión por la estética la ha llevado a ser jueza en certámenes de belleza de gran nivel, además de ser la Nutricionista oficial en concursos de belleza.",
+        "price": "99.99",
+        "image": "https://static-media.hotmart.com/yaQ3kf59icww9x40X6aFnK4-_dA=/600x600/filters:quality(100)/hotmart/checkout_custom/63fccea4-9b92-4fda-912a-a7cb02987a45/noteepc1o.jpg",
         "categoria": "Emprendimiento",
         "formato": "Cursos online",
         "rating": "5",
-        "paymentUrl": "https://pay.hotmart.com/J87886216P?off=yprvlch7&ref=R88961493S&bid=1706144616089"
+        "paymentUrl": "https://go.hotmart.com/F88565229B?ap=eb76",
+        "adicional": "https://go.hotmart.com/F88565229B?ap=b411"
     },
     {
-        "name": "Diseño gráfico",
-        "description": "Aprende sobre el diseño gráfico",
-        "price": "15",
-        "image": "https://mediactiu.com/wp-content/uploads/2021/04/mejor-estudio-de-diseno-grafico-barcelona.jpg",
-        "categoria": "Tecnología",
+        "name": "Barista Avanzado",
+        "description": "Este curso no solo se trata de preparar excelentes bebidas, sino también de comprender el proceso que hay detrás de cada taza de café. Explorarás la cadena de suministro del café, desde la plantación hasta la taza, y abordarás temas como la sostenibilidad, el comercio justo y las prácticas éticas en la industria del café. Al finalizar este curso darás el primer paso para trabajar en cafeterías, restaurantes o bares, deleitar a tu audiencia y preparar cafés clásicos y modernos de la manera correcta. Estarás equipado con un conocimiento profundo, habilidades técnicas superiores y una pasión renovada por el café de calidad. ¡Prepárate para convertirte en un verdadero experto en el arte del barismo con este maravilloso curso!",
+        "price": "25",
+        "image": "https://static-media.hotmart.com/lBij6CxFQF4ShaymdJ3RlIpZtc0=/295x165/smart/filters:quality(100)/hotmart/product_pictures/9e06c6f9-7c7f-4e50-b0ff-a117f534c478/ORDERBUMP.jpg",
+        "categoria": "Emprendimiento",
         "formato": "Cursos online",
         "rating": "5",
-        "paymentUrl": "https://pay.hotmart.com/J87886216P?off=yprvlch7&ref=R88961493S&bid=1706144616089"
+        "paymentUrl": "https://go.hotmart.com/T89879943N?ap=67a4",
+        "adicional":"https://go.hotmart.com/T89879943N"
+    },
+    {
+        "name": "Cerámica Desde Casa",
+        "description": "En este curso encontrarás todas las bases para adentrarte en el apasionante y curativo mundo de la cerámica. Dónde tus manos se convertirán en tu principal herramienta de trabajo para crear piezas inolvidables, cargadas de amor y toda tu creatividad. Bajo la guía de Daniela Sandoval, Diseñadora Industrial con estudios en cerámica en Colombia e Italia y además creadora de su propio taller, Bosque y Cielo; comenzarás tu camino para aprender a dejar volar tu imaginación y poder transformar algo tan simple como la arcilla en cualquier objeto que desees. Aprenderás además, diferentes técnicas para poder moldear todas tus piezas, conocer cómo funciona el proceso de horneado y cómo darle los toques finales para que tus cerámicas siempre tengan tu toque artístico personal. Al finalizar este curso estarás listo para empezar a transformar un material sencillo y sin color en un objeto imperecedero vestido de mil colores.",
+        "price": "25",
+        "image": "https://static-media.hotmart.com/cOAqjfikvuDf0GjO0Z9JSNo-pY8=/295x165/smart/filters:quality(100)/hotmart/product_pictures/a3586bef-4d7f-47c0-a143-f23e0ecac82c/PRESENTACIONDELPRODUCTO.jpg",
+        "categoria": "Desarrollo personal, Emprendimiento",
+        "formato": "Cursos online",
+        "rating": "5",
+        "paymentUrl": "https://go.hotmart.com/Y88756132F?ap=40a7",
+        "adicional": "https://go.hotmart.com/Y88756132F"
     }
    
 ]

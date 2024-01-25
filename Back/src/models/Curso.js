@@ -40,6 +40,10 @@ module.exports = (sequelize) => {
     paymentUrl: {
       type: DataTypes.STRING,
       allowNull: false
+    },
+    adicional: {
+      type: DataTypes.STRING,
+      allowNull: false
     }
 
   }, {timestamps: false,
