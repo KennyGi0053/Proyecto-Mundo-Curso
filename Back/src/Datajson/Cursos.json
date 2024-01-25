@@ -138,11 +138,23 @@
         "price": "34.99",
         "image": "https://static-media.hotmart.com/_CqpCYyw4VE5Gih1xUtD3Rt-ZSw=/300x300/smart/filters:format(webp):background_color(white)/hotmart/product_pictures/d7777a18-221b-4345-9896-127204ba91d0/6.png?w=920",
         "video": "",
-        "categoria": "Espiritualidad, Emprendimiento",
+        "categoria": "Emprendimiento",
         "formato": "Cursos online",
         "rating": "5",
         "paymentUrl": "https://go.hotmart.com/B89879613K?ap=fe13",
         "adicional": "https://go.hotmart.com/B89879613K"
+    },
+    {
+        "name": "Fitness para futuras mamás",
+        "description": "Desarrollado por: Fiorella Flores, experta en preparación pre y posnatal, deportista de alto rendimiento y consultora de diástasis y del core, ha canalizado sus más de 15 años de experiencia para ayudar a cientos de mujeres en toda Latinoamérica. Como madre de tres hijas, Tamara, Julieta y la pequeña Tiziana, Fiorella ha demostrado, a través de su propio ejemplo, una rápida y exitosa recuperación después de cada embarazo, superando incluso su estado físico previo. Su programa, elaborado con amor, reúne todos sus conocimientos para brindar a las futuras mamás una guía integral en su viaje hacia un embarazo saludable y una recuperación postnatal excepcional.",
+        "price": "25",
+        "image": "https://educlases.online/wp-content/uploads/2023/12/PORTADA-DE-VIDEO-5-1536x864.jpg",
+        "video": "",
+        "categoria": "Desarrollo personal, Salud y Deportes",
+        "formato": "Cursos online",
+        "rating": "5",
+        "paymentUrl": "https://go.hotmart.com/D89543872A?ap=ae8e",
+        "adicional": "https://go.hotmart.com/D89543872A"
     }
     
    
