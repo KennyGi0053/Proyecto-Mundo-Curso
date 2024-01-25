@@ -21,7 +21,8 @@ const getcursos = async() => {
             categoria: curso.categoria,
             formato: curso.formato,
             paymentUrl: curso.paymentUrl,
-            adicional: curso.adicional
+            adicional: curso.adicional,
+            video: curso.video
             
         }
     })

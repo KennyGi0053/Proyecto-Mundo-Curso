@@ -38,7 +38,21 @@ const Detalle = () => {
                 <h2 className={style.h1}>{cursosId.name}</h2>
 
                 <div className={style.containerdescripimagen}>
-                <img className={style.imagen} src={cursosId.image}></img>
+                            {cursosId.video ? (
+                                <iframe
+                                    className={style.imagen}
+                                    src={cursosId.video}
+                                    title="Video"
+                                    allowfullscreen
+                                    frameBorder="0"
+                                ></iframe>
+                            ) : (
+                                <img
+                                    className={style.imagen}
+                                    src={cursosId.image}
+                                    alt="Imagen del curso"
+                                />
+                            )}
                 <h2 className={style.description}>{cursosId.description}</h2>
 
                 </div>

@@ -44,6 +44,10 @@ module.exports = (sequelize) => {
     adicional: {
       type: DataTypes.STRING,
       allowNull: false
+    },
+    video: {
+      type: DataTypes.TEXT,
+      allowNull: false
     }
 
   }, {timestamps: false,
