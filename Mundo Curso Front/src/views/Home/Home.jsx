@@ -51,7 +51,7 @@ const Home = () => {
    }
 
   const [currentPage, setCurrentPage] = useState(1)
-  const [cursosPorPagina] = useState(6)
+  const [cursosPorPagina] = useState(8)
   const indexOfLastCursos = currentPage * cursosPorPagina
   const indexOfFirstCursos = indexOfLastCursos - cursosPorPagina
   const currentCursos = allcursos.slice(indexOfFirstCursos, indexOfLastCursos)
