@@ -52,7 +52,7 @@
         "name": "Barista Avanzado",
         "description": "Este curso no solo se trata de preparar excelentes bebidas, sino también de comprender el proceso que hay detrás de cada taza de café. Explorarás la cadena de suministro del café, desde la plantación hasta la taza, y abordarás temas como la sostenibilidad, el comercio justo y las prácticas éticas en la industria del café. Al finalizar este curso darás el primer paso para trabajar en cafeterías, restaurantes o bares, deleitar a tu audiencia y preparar cafés clásicos y modernos de la manera correcta. Estarás equipado con un conocimiento profundo, habilidades técnicas superiores y una pasión renovada por el café de calidad. ¡Prepárate para convertirte en un verdadero experto en el arte del barismo con este maravilloso curso!",
         "price": "25",
-        "image": "https://static-media.hotmart.com/lBij6CxFQF4ShaymdJ3RlIpZtc0=/295x165/smart/filters:quality(100)/hotmart/product_pictures/9e06c6f9-7c7f-4e50-b0ff-a117f534c478/ORDERBUMP.jpg",
+        "image": "https://i.vimeocdn.com/video/1703039808-11e3e3213a384bacbe9d6ffd6dcdaad32e4faee219c4c47fb8c549e76b7b7420-d?mw=800&mh=450",
         "video": "https://player.vimeo.com/video/849144793?color&autopause=0&loop=0&muted=0&title=0&portrait=0&byline=0#t=",
         "categoria": "Emprendimiento",
         "formato": "Cursos online",
@@ -114,7 +114,7 @@
         "price": "25",
         "image": "https://educlases.online/wp-content/uploads/2023/02/MOCKUPS.png",
         "video": "",
-        "categoria": "Desarrollo personal, Espiritualidad",
+        "categoria": "Desarrollo personal, Emprendimiento",
         "formato": "Cursos online",
         "rating": "5",
         "paymentUrl": "https://go.hotmart.com/D88045103A?ap=d1d1",
@@ -179,6 +179,18 @@
         "rating": "5",
         "paymentUrl": "https://go.hotmart.com/A89880257I?ap=98c9",
         "adicional": "https://go.hotmart.com/A89880257I" 
+    },
+    {
+        "name": "Hierbas medicinales para controlar la glucosa en la sangre",
+        "description": "Descubre una guía completa sobre plantas medicinales cuidadosamente seleccionadas, sus propiedades y cómo pueden contribuir de manera positiva a tu bienestar. Desde hierbas que ayudan a regular el azúcar en la sangre hasta plantas con propiedades antiinflamatorias, cada capítulo es una invitación a explorar el poder de la naturaleza como complemento en el manejo de la diabetes. Empodérate con conocimiento, abraza lo natural y avanza hacia un estilo de vida más saludable. Este libro es tu compañero en el viaje hacia el equilibrio y el control, fusionando la sabiduría ancestral con la ciencia moderna",
+        "price": "6.99",
+        "image": "https://static-media.hotmart.com/42N2vBWBDThZO71i0-02SbY9vKk=/300x300/smart/filters:format(webp):background_color(white)/hotmart/product_pictures/c8fdd54d-dc63-410f-bf4c-f77a2ce3b270/top1.png?w=920",
+        "video": "",
+        "categoria": "Salud y Deportes",
+        "formato": "e-Book",
+        "rating": "5",
+        "paymentUrl": "https://go.hotmart.com/C89809395H",
+        "adicional": "https://go.hotmart.com/C89809395H" 
     }
     
    
