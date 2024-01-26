@@ -40,6 +40,9 @@
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     margin-top: 5px;
     color: #050a30;
+    white-space: nowrap;      /* Evita que el texto se divida en varias líneas */
+  overflow: hidden;          /* Oculta el contenido que excede el tamaño del contenedor */
+  text-overflow: ellipsis;   /* Muestra tres puntos (...) cuando el texto se corta */
 }
 .container {    
     display: flex;
@@ -57,7 +60,7 @@
     font-size: 18px;
     color: #050a30; /* Color naranja, puedes ajustarlo según tus preferencias */
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    margin: 26px;
+    margin: 18px;
 }
 
 .price::after {
@@ -95,3 +98,4 @@
     color: #050a30;
     background-color: white; /* Cambia el color de fondo al pasar el mouse */
 }
+
