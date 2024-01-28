@@ -53,6 +53,25 @@
     font-size: 20px;
 }
 
+.adicional {
+    height: 50px;
+    color: white;
+    background-color: #050a30;
+    border: solid 1px;
+    border-radius: 10px;
+    width: 150px;
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    transition: background-color 0.3s ease;
+    cursor: pointer;
+    margin-left: 500px;
+}
+
+.adicional:hover {
+    color: #050a30;
+    background-color: white; /* Cambia el color de fondo al pasar el mouse */
+}
+
 .categoria {
     color: #050a30;
     display: flex;
