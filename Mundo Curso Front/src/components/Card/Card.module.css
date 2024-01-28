@@ -3,15 +3,15 @@
     text-align: center;
     justify-content: center;
     flex-direction: column;
-    color: #050a30;
-    background-color: #fff;
+    color: rgb(243,95,64);
+    background-color: white;
     border-radius: 10px;
     margin: 20px;
-    width: 240px;
+    width: 260px;
     height: 330px;
     
     font-weight: bold; /* Texto en negrita para destacar el precio */
-    border: solid 1px;
+    border: solid 2px;
     transition: background-color 0.3s ease;
 
 }
@@ -39,7 +39,7 @@
     font-size: medium;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     margin-top: 5px;
-    color: #050a30;
+    color: black;
     white-space: nowrap;      /* Evita que el texto se divida en varias líneas */
   overflow: hidden;          /* Oculta el contenido que excede el tamaño del contenedor */
   text-overflow: ellipsis;   /* Muestra tres puntos (...) cuando el texto se corta */
@@ -58,7 +58,7 @@
     text-align: center;
     justify-content: left;
     font-size: 18px;
-    color: #050a30; /* Color naranja, puedes ajustarlo según tus preferencias */
+    color: black; /* Color naranja, puedes ajustarlo según tus preferencias */
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     margin: 18px;
 }
@@ -85,9 +85,9 @@
     height: 40px;
     border: solid 1px;
     border-radius: 5px;
-    border-color: #050a30;
+    border-color: black;
     color: white;
-    background-color: #050a30;
+    background-color: black;
     font-size: 15px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     transition: background-color 0.3s ease;

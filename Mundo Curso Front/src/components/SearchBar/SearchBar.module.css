@@ -2,10 +2,10 @@
     display: flex;
     align-items: center;
     text-align: center;
-    background-color: #fff;
+    background-color: transparent;
     border: 2px solid #050a30;
     border-radius: 35px;
-    border-color: #050a30;
+    border-color: rgb(243,95,64);
     height: 50px;
     width: 400px;
     justify-content: left;
@@ -19,7 +19,7 @@
     align-items: center;
     text-align: center;
     justify-content: left;
-    color: #050a30;
+    color: white;
     font-size: 15px;
     background-color: transparent;
   }
@@ -27,7 +27,7 @@
   .input [placeholder='Buscar curso'] {
     border: none;
     outline: none;
-    color: #050a30;
+    color: white;
     
     align-items: center;
     text-align: center;

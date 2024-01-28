@@ -14,8 +14,8 @@
     border-radius: 100px;
     height: 35px;
     width: 35px;
-    border-color: #050a30;
-    color: #050a30;
+    border-color: rgb(243,95,64);
+    color: black;
     background-color: white;
     transition: background-color 0.3s ease;
 
@@ -23,7 +23,7 @@
 
 .but:hover {
     border: solid 2px;
-    border-color: #050a30; 
-    background-color: #050a30;
+    border-color: black; 
+    background-color: black;
     color: white;  
 }

@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom"
 import styles from './Navbar.module.css'
-import logo from '../../assets/Logo Mundo Curso 4.png'
+import logo from '../../assets/Logo mi mundo Curso.png'
 import { AiOutlineHome } from "react-icons/ai";
 const Navbar = () => {
 
@@ -16,7 +16,7 @@ const Navbar = () => {
 
         </section >
         <section className={styles.Bienvenido}>
-       <p className={styles.p}>Bienvenido a Mundo Curso</p>
+       <p className={styles.p}>Pago seguro</p>
         {/* <img className={styles.garantia} src={Garantia} alt='garantia' /> */}
 
         </section>

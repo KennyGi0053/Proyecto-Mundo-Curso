@@ -3,7 +3,7 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    background-color: rgb(240,240,255);
+    background-color: rgb(28,28,28);
     background-size: 100% 100%;
     
     min-height: 100vh;
@@ -38,7 +38,7 @@
     text-align: left;
     justify-content: center; 
     margin-bottom: 50px;
-    border: solid 2px color black;
+    border: solid 2px color rgb(243,95,64);
     
 }
 
@@ -50,14 +50,16 @@
     height: 40px;
     border: solid 2px;
     border-radius: 20px;
-    border-color: #050a30;
+    border-color: rgb(243,95,64);
+    background-color: white;
     font-size: 15px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     transition: background-color 0.3s ease;
 }
 
 .cateselect:hover {
-    background-color: rgba(248, 71, 100, 0.2); /* Cambia el color de fondo al pasar el mouse */
+    background-color: black;
+    color: white;
 }
 
 .contenedorprice {
@@ -76,14 +78,16 @@
     height: 40px;
     border: solid 2px;
     border-radius: 20px;
-    border-color: #050a30;
+    border-color: rgb(243,95,64);
+    background-color: white;
     font-size: 15px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     transition: background-color 0.3s ease;
 }
 
 .selectprice:hover {
-    background-color: rgba(248, 71, 100, 0.2); /* Cambia el color de fondo al pasar el mouse */
+    background-color: black; /* Cambia el color de fondo al pasar el mouse */
+    color: white;
 }
 
 .contenedorReset {
@@ -99,9 +103,9 @@
     align-items: center;
     justify-content: center;
     height: 40px;
-    color: white;
-    background-color: #050a30;
-    border: solid 1px;
+    color: black;
+    background-color: white;
+    border: solid 2px;
     border-radius: 20px;
     
     font-size: 15px;
@@ -110,18 +114,20 @@
 }
 
 .botonreset:hover {
-    color: #050a30;
-    background-color: white; /* Cambia el color de fondo al pasar el mouse */
+    color: white;
+    background-color: transparent; /* Cambia el color de fondo al pasar el mouse */
+    border-color:rgb(243,95,64) ;
+
 }
 .CarruselMain {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
     background: transparent;
-    max-width: 1000px;
-    margin: 50px auto;
+    max-width: 1260px;
+    margin: 0px auto;
     overflow: hidden;
-    border-radius: 20px;
+    
   
 }
 

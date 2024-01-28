@@ -64,7 +64,9 @@
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     transition: background-color 0.3s ease;
     cursor: pointer;
+    justify-content: end;
     margin-left: 500px;
+    
 }
 
 .adicional:hover {
