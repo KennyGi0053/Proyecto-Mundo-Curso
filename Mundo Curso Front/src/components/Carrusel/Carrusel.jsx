@@ -5,6 +5,7 @@ import imagen4 from '../../assets/foto carrusel 4.png'
 import FlechaIzquierda from './left-arrow.png'
 import FlechaDerecha from './right-arrow.png'
 import styled from 'styled-components'
+import style from './carrusel.module.css'
 import { useRef, useEffect } from 'react'
 // import style from './Carrusel.module.css'
 
@@ -129,10 +130,10 @@ slideshow.current.addEventListener('transitionend', transicion);
       </ContenedorSlideshow>
       <Controles >
         <Boton onClick={anterior}>
-          <img  src={FlechaIzquierda} alt='flecha izquierda'/>
+          <img className={style.arrowleft} src={FlechaIzquierda} alt='flecha izquierda'/>
         </Boton>
         <Boton derecho="true" onClick={siguiente}>
-        <img src={FlechaDerecha} alt='flecha derecha'/>
+        <img className={style.arrowright} src={FlechaDerecha} alt='flecha derecha'/>
         </Boton>
       </Controles>
     </ContenedorPrincipal>

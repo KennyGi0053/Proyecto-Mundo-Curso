@@ -77,3 +77,10 @@ font-size: larger;
     transition: .3s ease all;
 }
 
+.arrowleft {
+  height: 80px;
+}
+
+.arrowright {
+  height: 80px;
+}
