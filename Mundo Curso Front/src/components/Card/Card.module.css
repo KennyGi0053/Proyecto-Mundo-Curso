@@ -38,7 +38,7 @@
 .name {
     font-size: medium;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    margin-top: 5px;
+    margin: 20px;
     color: black;
     white-space: nowrap;      /* Evita que el texto se divida en varias líneas */
   overflow: hidden;          /* Oculta el contenido que excede el tamaño del contenedor */
@@ -60,7 +60,8 @@
     font-size: 18px;
     color: black; /* Color naranja, puedes ajustarlo según tus preferencias */
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    margin: 18px;
+    margin: 25px;
+
 }
 
 .price::after {
