@@ -39,7 +39,7 @@
     font-size: medium;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     margin: 20px;
-    color: black;
+    color: rgb(28,28,28);
     white-space: nowrap;      /* Evita que el texto se divida en varias líneas */
   overflow: hidden;          /* Oculta el contenido que excede el tamaño del contenedor */
   text-overflow: ellipsis;   /* Muestra tres puntos (...) cuando el texto se corta */
@@ -58,7 +58,7 @@
     text-align: center;
     justify-content: left;
     font-size: 18px;
-    color: black; /* Color naranja, puedes ajustarlo según tus preferencias */
+    color: rgb(28,28,28); /* Color naranja, puedes ajustarlo según tus preferencias */
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     margin: 25px;
 
@@ -86,9 +86,9 @@
     height: 45px;
     border: solid 1px;
     border-radius: 5px;
-    border-color: black;
+    border-color: rgb(28,28,28);
     color: white;
-    background-color: black;
+    background-color: rgb(28,28,28);
     font-size: 15px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     transition: background-color 0.3s ease;
