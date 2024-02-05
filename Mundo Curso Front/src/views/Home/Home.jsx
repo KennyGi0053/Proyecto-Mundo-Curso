@@ -123,9 +123,7 @@ const Home = () => {
         key={cu.id}/>
         )
       })}
-  </div>
-  </div>
-  )}
+      </div>
   <Paginado 
   cursosPorPagina={cursosPorPagina}
   allcursos={allcursos.length}
@@ -133,7 +131,9 @@ const Home = () => {
   currentPage={currentPage}
   setCurrentPage={setCurrentPage}
   />
-</div>
+  </div>
+  )}
+  </div>
   )
 }
 
