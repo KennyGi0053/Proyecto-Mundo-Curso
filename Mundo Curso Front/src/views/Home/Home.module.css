@@ -37,7 +37,6 @@
     align-items: center;
     text-align: left;
     justify-content: center; 
-    margin-bottom: 50px;
     border: solid 2px color rgb(243,95,64);
     
 }
@@ -146,3 +145,26 @@
     align-items: center;
     justify-content: center;
 }
+
+@media screen and (max-width: 830px){
+    .garantia{
+     display: flex;
+     align-items: center;
+     flex-direction: column;
+     justify-content: center;
+     margin-left: 230px;
+    }
+
+    .cateCardContainer {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    margin: 20px;
+
+    
+    }
+
+  
+   
+  }

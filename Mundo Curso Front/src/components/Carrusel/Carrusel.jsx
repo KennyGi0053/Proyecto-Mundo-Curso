@@ -1,4 +1,4 @@
-import imagen1 from '../../assets/foto carrusel 1.png'
+import imagen1 from '../../assets/Dr Suarez y Ludwig.png'
 import imagen2 from '../../assets/350 recetas saludables.png'
 import imagen3 from '../../assets/foto carrusel 3.png'
 import imagen4 from '../../assets/foto carrusel 4.png'

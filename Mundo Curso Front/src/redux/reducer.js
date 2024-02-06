@@ -37,8 +37,8 @@ const rootReducer = (state = initialState, action) => {
             }
 
             case FILTER_BY_CATEGORIA:
-              const allcursos = state.allcursos
-              const cursosall = state.cursosall
+              const allcursos = state.allcursos;
+              const cursosall = state.cursosall;
               const CursosPorCategoria = action.payload === 'all'
 
               ? allcursos
@@ -108,7 +108,8 @@ const rootReducer = (state = initialState, action) => {
               return {
                 ...state,
                 cursos: state.allcursos,
-                selectedCategorias: []
+                selectedCategorias: state.selectedCategorias,
+                allcursos: state.cursosall
               }
 
               case GET_RESET_PRICE:

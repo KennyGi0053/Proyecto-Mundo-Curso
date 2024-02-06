@@ -73,14 +73,13 @@ const Home = () => {
     <div className={style.CarruselMain}>
         <Carrusel/>
       </div>
-      <div className={style.ContainerFilters}>
 
      <img className={style.garantia} src={Garantia} alt='garantia' />      
     <div className= {style.search}>
 
       <SearchBar className={style.search} returnToFirstPage={returnToFirstPage}/>
     </div>
-      </div>
+      
   
   <div className={style.cateCardContainer} >
     <div className={style.categoria} >
@@ -94,6 +93,7 @@ const Home = () => {
         ))
       }
     </select>
+  </div>
   <div className={style.contenedorprice}>
     <select className={style.selectprice} onChange={event => handleOrderByPrice(event)} defaultValue='default'>
     <option  value="">Ordenar por precio</option>
@@ -104,11 +104,11 @@ const Home = () => {
   <div className={style.contenedorReset}>
     <button className={style.botonreset} onClick={handleReset}>Limpiar Filtros</button>
   </div>
-  </div>
+      </div>
 
     
 
-  </div>
+  
   <div className={style.card}>
     {currentCursos?.map((cu) => {
       
