@@ -34,7 +34,7 @@ const Detalle = () => {
         ) : (
             <div className={style.container}>
 
-            <div className={style.container2}>
+            
                 <h2 className={style.h1}>{cursosId.name}</h2>
 
                 <div className={style.containerdescripimagen}>
@@ -53,7 +53,11 @@ const Detalle = () => {
                                     alt="Imagen del curso"
                                 />
                             )}
-                <h2 className={style.description}>{cursosId.description}</h2>
+                <div className={style.description}>
+    {cursosId.description.split('\n\n').map((paragraph, index) => (
+      <p key={index}>{paragraph}</p>
+    ))}
+  </div>
                 </div>
                 <Link to={cursosId.adicional} target="_blank" rel="noopener noreferrer">
                 <button className={style.adicional}>Ver más</button>
@@ -70,7 +74,7 @@ const Detalle = () => {
                 {/* <img src={Footer}></img> */}
 
                 </div>
-            </div>
+            
             </div>
         )}
 
