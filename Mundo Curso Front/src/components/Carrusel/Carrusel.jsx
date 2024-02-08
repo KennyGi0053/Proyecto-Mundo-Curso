@@ -143,6 +143,7 @@ slideshow.current.addEventListener('transitionend', transicion);
 const ContenedorPrincipal = styled.div`
 
   position: relative;
+  margin: 10px
   
   
 `;

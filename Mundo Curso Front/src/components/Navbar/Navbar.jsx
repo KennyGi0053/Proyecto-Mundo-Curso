@@ -14,12 +14,15 @@ const Navbar = () => {
         <h4 className={styles.iconHome}> <AiOutlineHome /> Inicio </h4>
         </Link>
 
+        <h4 className={styles.frecuente}>Preguntas frecuentes</h4>
+        
+
+       <h4 className={styles.p}>Pago seguro</h4>
         </section >
-        <section className={styles.Bienvenido}>
-       <p className={styles.p}>Pago seguro</p>
+
         {/* <img className={styles.garantia} src={Garantia} alt='garantia' /> */}
 
-        </section>
+       
         
         
         
