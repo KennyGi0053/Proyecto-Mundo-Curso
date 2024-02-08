@@ -19,7 +19,15 @@
     overflow: hidden;
     width: 100vh;
     animation: spin 1s infinite linear;
-    
+    background-color: black;
+  }
+
+  .gif {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    height: 250px;
+    width: 250px;
   }
   
   @keyframes spin {

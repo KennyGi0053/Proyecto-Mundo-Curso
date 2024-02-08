@@ -1,5 +1,5 @@
 import style from './Loader.module.css'
-import Loading from '../../assets/Loader Circles.gif'
+import Loading from '../../assets/loader1.gif'
 
 
 
@@ -8,7 +8,7 @@ const Loader = ({background}) => {
 
   return (
     <div className={style.loader} style={{background}}>
-        <img src={Loading} alt='loading' className='loader-image'/>
+        <img className={style.gif} src={Loading} alt='loading' />
     </div>
   )
 }
