@@ -88,21 +88,13 @@ const rootReducer = (state = initialState, action) => {
             }
 
             case ORDER_BY_PRICE:
-              const CursoByPrice = action.payload === 'asc' ?
-              state.cursos.sort((a,b) => {
-                if (a.price > b.price) return 1
-                if (b.price > a.price) return -1
-                return 0
-              }) :
-              state.cursos.sort((a,b) => {
-                if (a.price > b.price) return -1
-                if (b.price > a.price) return 1
-                return 0
-              })
-              return {
-                ...state,
-                allcursos: CursoByPrice
-              }
+  const CursoByPrice = action.payload === 'asc' ?
+    state.allcursos.slice().sort((a, b) => a.price - b.price) :
+    state.allcursos.slice().sort((a, b) => b.price - a.price);
+  return {
+    ...state,
+    cursos: CursoByPrice
+  }
             case GET_RESET:
               console.log('Recibida la acción GET_RESET');
               return {
