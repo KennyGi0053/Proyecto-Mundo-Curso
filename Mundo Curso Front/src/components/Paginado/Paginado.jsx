@@ -11,7 +11,7 @@ const Paginado = ({cursosPorPagina, allcursos, paginado, currentPage, setCurrent
     const totalPages = Math.ceil(allcursos/cursosPorPagina)
   
     const handlePrevPage = () => {
-        setCurrentPage((prevPage) => Math.max(prevPage - 1, totalPages))
+        setCurrentPage((prevPage) => Math.max(prevPage - 1, 1))
     }
 
     const handleNextPage = () => {
