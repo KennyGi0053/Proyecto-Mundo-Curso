@@ -39,6 +39,7 @@ const rootReducer = (state = initialState, action) => {
             case FILTER_BY_CATEGORIA:
               const allcursos = state.allcursos;
               const cursosall = state.cursosall;
+              const selectedCategorias = state.selectedCategorias
               const CursosPorCategoria = action.payload === 'all'
 
               ? allcursos
@@ -49,6 +50,7 @@ const rootReducer = (state = initialState, action) => {
                 cursos: CursosPorCategoria,
                 allcursos: allcursos,
                 cursosall: cursosall,
+                selectedCategorias: selectedCategorias,
               }
       // allcursos = state.allcursos;
 
@@ -88,13 +90,19 @@ const rootReducer = (state = initialState, action) => {
             }
 
             case ORDER_BY_PRICE:
-  const CursoByPrice = action.payload === 'asc' ?
-    state.allcursos.slice().sort((a, b) => a.price - b.price) :
-    state.allcursos.slice().sort((a, b) => b.price - a.price);
+  const cursosFiltrados = state.cursos; // Obtenemos los cursos filtrados actualmente
+
+  // Ordenar los cursos según el precio
+  const CursoByPrice = action.payload === 'asc'
+    ? cursosFiltrados.slice().sort((a, b) => a.price - b.price)
+    : cursosFiltrados.slice().sort((a, b) => b.price - a.price);
+
   return {
     ...state,
-    cursos: CursoByPrice
-  }
+    cursos: CursoByPrice,
+    // Mantenemos el filtro por categoría
+    // selectedCategorias: state.selectedCategorias, // Si es necesario, asegúrate de mantener las categorías seleccionadas
+  };
             case GET_RESET:
               console.log('Recibida la acción GET_RESET');
               return {
@@ -109,7 +117,8 @@ const rootReducer = (state = initialState, action) => {
                 return {
                   ...state,
                   allcursos: [...state.allcursos],
-                  cursos: [...state.allcursos]
+                  cursos: [...state.allcursos],
+                  selectedCategorias: [...state.selectedCategorias]
                 }
     default:
         return {...state}

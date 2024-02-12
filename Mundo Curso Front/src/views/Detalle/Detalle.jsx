@@ -4,7 +4,7 @@ import { Link, useParams } from 'react-router-dom'
 import { getCursosId } from '../../redux/actions'
 import style from './Detalle.module.css'
 import Loader from '../../components/Loader/Loader'
-import Footer from '../../assets/Footer para detalles.png'
+// import Footer from '../../assets/Footer para detalles.png'
 const Detalle = () => {
 
     const { id } = useParams()
@@ -71,9 +71,9 @@ const Detalle = () => {
                 <button className={style.boton} >Comprar </button>
                 </Link>
 
-                {/* <img src={Footer}></img> */}
 
                 </div>
+                {/* <img src={Footer}></img> */}
             
             </div>
         )}
