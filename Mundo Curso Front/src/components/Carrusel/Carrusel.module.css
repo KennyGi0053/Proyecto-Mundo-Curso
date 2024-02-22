@@ -18,13 +18,14 @@
   overflow: hidden;
   transition: .3s ease all;
   z-index: 9;
-  max-height: 500px;
+  max-height: 400px;
   position: relative;
   
 }
 .Slideimg {
   width: 100%;
   vertical-align: top;
+  height: 100%;
   
 }
 .TextoSlide {

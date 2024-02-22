@@ -1,7 +1,7 @@
-import imagen1 from '../../assets/Dr Suarez y Ludwig.png'
-import imagen2 from '../../assets/350 recetas saludables.png'
-import imagen3 from '../../assets/foto carrusel 3.png'
-import imagen4 from '../../assets/foto carrusel 4.png'
+import imagen1 from '../../assets/pasteleria canina 2.png'
+import imagen2 from '../../assets/paneles.png'
+import imagen3 from '../../assets/flash afiliados.png'
+import imagen4 from '../../assets/reparacion de iphone.jpg'
 import FlechaIzquierda from './left-arrow.png'
 import FlechaDerecha from './right-arrow.png'
 import styled from 'styled-components'
@@ -159,14 +159,14 @@ const Slide = styled.div`
   overflow: hidden;
   transition: .3s ease all;
   z-index: 10;
-  max-height: 500px;
+  max-height: 450x;
   position: relative;
   
   img {
     width: 100%;
-    max-height: 400px;
+    max-height: 450px;
     vertical-align: top;
-    
+
   }
 `;
 
