@@ -17,10 +17,12 @@ const Navbar = () => {
         <Link to= '/' className={styles.link}> 
         <h4 className={styles.iconHome}> Inicio </h4>
         </Link>
+
         <img  className={styles.interrogation} src={interrogation} alt='Preguntas frecuentes' />
         <Link className={styles.link} to='Preguntas'>
         <h4 className={styles.frecuente}>Preguntas frecuentes</h4>
         </Link>
+        
         <img className={styles.dollar} src={dollar} alt='simbolo de dolar' ></img>
         <h4 className={styles.p}>Pago seguro</h4>
         </section >
