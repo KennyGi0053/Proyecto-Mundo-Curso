@@ -22,7 +22,7 @@ justify-content: space-between;
  }
 
  .interrogation {
-    margin-left: 15px;
+    margin-left: 5px;
  }
 .p {
   display: flex;
@@ -30,6 +30,7 @@ justify-content: space-between;
   text-align: center;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   color: white;
+  margin: 5px;
   
 }
 
