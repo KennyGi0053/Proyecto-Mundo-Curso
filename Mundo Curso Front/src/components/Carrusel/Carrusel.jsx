@@ -92,7 +92,7 @@ slideshow.current.addEventListener('transitionend', transicion);
       <ContenedorSlideshow ref={slideshow}>
 
       <Slide >
-        <a href="https://sonriesinazucar.com/" target="_blank" rel="noreferrer">
+        <a href="https://go.hotmart.com/V88753921U" target="_blank" rel="noreferrer">
 
         <img  src={imagen1} alt='foto de carrusel 1'/>
         </a>
@@ -101,7 +101,7 @@ slideshow.current.addEventListener('transitionend', transicion);
         </TextoSlide> */}
       </Slide>
       <Slide >
-        <a href="https://sonriesinazucar.com/" target="_blank" rel="noreferrer">
+        <a href="https://go.hotmart.com/D88045103A" target="_blank" rel="noreferrer">
 
         <img  src={imagen2} alt='foto de carrusel 2'/>
         </a>
@@ -110,7 +110,7 @@ slideshow.current.addEventListener('transitionend', transicion);
         </TextoSlide> */}
       </Slide>
       <Slide>
-        <a href="https://go.hotmart.com/S88013109F" target="_blank" rel="noreferrer">
+        <a href="https://go.hotmart.com/W91076209I" target="_blank" rel="noreferrer">
 
         <img src={imagen3} alt='foto de carrusel 3'/>
         </a>
@@ -119,7 +119,7 @@ slideshow.current.addEventListener('transitionend', transicion);
         </TextoSlide> */}
       </Slide>
       <Slide >
-        <a href="https://go.hotmart.com/F87831518F" target="_blank" rel="noreferrer">
+        <a href="https://go.hotmart.com/Y88612131T" target="_blank" rel="noreferrer">
 
         <img  src={imagen4} alt='foto de carrusel 4'/>
         </a>
