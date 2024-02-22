@@ -71,6 +71,13 @@ flex-wrap: wrap;
 
 }
 
+.home {
+    margin: 5px;
+}
+
+.dollar {
+    margin: 5px;
+}
 
 
 @media screen and (max-width: 830px){
@@ -94,10 +101,10 @@ flex-wrap: wrap;
    }
 
    .iconHome {
-    display: flex;
+        display: flex;
       align-items: center;
       justify-content: space-between;
-      gap: 10px;
+        gap: 5px;
       flex-direction: row;
       
    }
