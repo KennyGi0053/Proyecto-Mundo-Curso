@@ -1,7 +1,7 @@
 import imagen1 from '../../assets/pasteleria canina 2.png'
 import imagen2 from '../../assets/paneles.png'
 import imagen3 from '../../assets/flash afiliados.png'
-import imagen4 from '../../assets/reparacion de iphone.jpg'
+import imagen4 from '../../assets/yoga ciclo menstrual.jpg'
 import FlechaIzquierda from './left-arrow.png'
 import FlechaDerecha from './right-arrow.png'
 import styled from 'styled-components'
