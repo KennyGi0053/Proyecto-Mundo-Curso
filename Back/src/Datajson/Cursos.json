@@ -486,11 +486,23 @@
         "price": "27",
         "image": "https://static-media.hotmart.com/3nfFBAPDHogxv0o3trz2HVNkbe0=/295x165/smart/filters:quality(100)/hotmart/product_pictures/c86bd5e0-168a-4326-8e78-d10ce900729a/9C6E3B7CB7464BC5A955DAF8E6C6CB28.jpeg",
         "video": "https://player.vimeo.com/video/639544229?h=850c6ae838",
-        "categoria": "Emprendimiento,Moda y Belleza", 
+        "categoria": "Desarrollo personal", 
         "formato": "Cursos online",
         "rating": "5",
         "paymentUrl": "https://go.hotmart.com/F91023902P?ap=7ba1",
         "adicional": "https://go.hotmart.com/F91023902P" 
+    },
+    {
+        "name": "EL NEGOCIO DE LOS SERUM´S Y TÓNICOS",
+        "description": "Desarrollado por Julián Gutiérrez, quien cuenta con más de 12 años de experiencia en la industria de la química verde, diseñando, formulando y elaborando productos hechos a la medida. Profesional en Química de la Universidad de Ciencias Aplicadas y Ambientales (UDCA) con diplomados en Desarrollo de Competencias de Dirección y Gestión de la Asociación Nacional de Comercio Exterior (ANALDEX) – ADEN International Bussines School y Marketing Digital y Negocios Digitales de la Universidad de Antioquia.\n\n¿Qué aprenderás en este curso?\n\nAprenderás de materias primas naturales para manejar el cuidado personal.\n\nConocerás el como conservar los productos de cosmética natural y apartes del control de calidad de los mismos.\n\nAprenderás como gestionar la elaboración de tus propios productos ya sea para tu cuidado personal o nueva línea de negocios de productos naturales.\n\nObtendrás las habilidades necesarias para crear tu propia línea de Serum´s y tónicos con materias primas naturales.",
+        "price": "25",
+        "image": "https://static-media.hotmart.com/35c8SvrP01qvQVNYxwvVZCTNAk4=/295x165/smart/filters:quality(100)/hotmart/product_pictures/e2a69a7f-27b0-437c-bcca-6a93a8b6eae6/IMAGENCCAPRENDEECONOMIADESDECERO_ORDERBUMP.png",
+        "video": "https://player.vimeo.com/video/801250733?color&autopause=0&loop=0&muted=0&title=0&portrait=0&byline=0#t=",
+        "categoria": "Emprendimiento", 
+        "formato": "Cursos online",
+        "rating": "5",
+        "paymentUrl": "https://go.hotmart.com/E90745708J?ap=192e",
+        "adicional": "https://go.hotmart.com/E90745708J" 
     }
     
     
