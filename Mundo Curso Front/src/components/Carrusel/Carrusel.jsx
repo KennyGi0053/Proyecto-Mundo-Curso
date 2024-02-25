@@ -1,5 +1,5 @@
 import imagen1 from '../../assets/pasteleria canina 2.png'
-import imagen2 from '../../assets/paneles.png'
+import imagen2 from '../../assets/barista principiante.png'
 import imagen3 from '../../assets/flash afiliados.png'
 import imagen4 from '../../assets/yoga ciclo menstrual.jpg'
 import FlechaIzquierda from './left-arrow.png'
@@ -101,7 +101,7 @@ slideshow.current.addEventListener('transitionend', transicion);
         </TextoSlide> */}
       </Slide>
       <Slide >
-        <a href="https://go.hotmart.com/D88045103A" target="_blank" rel="noreferrer">
+        <a href="https://go.hotmart.com/L90745859C" target="_blank" rel="noreferrer">
 
         <img  src={imagen2} alt='foto de carrusel 2'/>
         </a>
