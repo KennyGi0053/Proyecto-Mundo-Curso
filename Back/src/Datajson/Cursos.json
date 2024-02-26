@@ -762,11 +762,23 @@
         "price": "62",
         "image": "https://static-media.hotmart.com/ySUxHW5le3lRmAWX-spiV2ucXHM=/filters:background_color(white)/hotmart/product_pictures/e7342fe5-4b76-4a04-b64e-53a6132fa330/4.png",
         "video": "",
-        "categoria": "mprendimiento", 
+        "categoria": "Emprendimiento", 
         "formato": "Cursos online",
         "rating": "5",
         "paymentUrl": "https://go.hotmart.com/N91202576M?ap=5725",
         "adicional": "https://go.hotmart.com/N91202576M" 
+    },
+    {
+        "name": "CURSO PEDICURE SPA VIP",
+        "description": "Este curso está enfocado en apoyar tu preparación como Pedicurista Spa VIP y transformar tus conocimientos paulatinamente en un proceso consciente y estructurado. Te ayudará a mejorar lo que haz aprendido a través de la experiencia para afianzar y hacer la réplica de las mejores prácticas que ponemos a tu disposición para te conviertas en un experto en tratamientos innovadores para cuidar y embellecer los pies.\n\nIncluye 8 cursos en 1:\n\n1. Curso de Pedicure Spa VIP.\n\n2. Curso de Onicoplastía.\n\n3. Curso de aplicación de Gel UV.\n\n4. Curso de aplicación de Acripie.\n\n5. Curso de elaboración de Bombas, Sales y Jelly Spa.\n\n6. Curso de Reflexología Podal.\n\n7. Curso de Esterilización y Desinfección.\n\n8. Curso de Masaje Podal.\n\nPara tomar este curso no requieres conocimientos previos y esta disponible para cualquier persona que desee desarrollar sus conocimientos en el cuidado de la salud podal.",
+        "price": "32",
+        "image": "https://static-media.hotmart.com/2IxFOIinaQ66cZnLJGtF5OUhvts=/300x300/smart/filters:format(webp):background_color(white)/hotmart/product_pictures/66b8202a-6ae2-4a3e-bb81-0ee77e28230b/pedicurefoto.png?w=920",
+        "video": "",
+        "categoria": "Emprendimiento,Moda y Belleza", 
+        "formato": "Cursos online",
+        "rating": "5",
+        "paymentUrl": "https://go.hotmart.com/D91202399P?ap=7315",
+        "adicional": "https://go.hotmart.com/D91202399P" 
     }
     
     
