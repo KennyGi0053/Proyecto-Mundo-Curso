@@ -1,0 +1,62 @@
+.ContenedorFooter{
+    display: flex;
+    flex-direction: column;
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.content {
+    max-width: 100%;
+    margin: 0 auto;
+    height: 100%;
+}
+
+.text {
+    margin: 0;
+    font-size: 18px;
+    color: #ccc;
+}
+
+
+.Linkedin {
+    height: 40px;
+    padding: 0px 10px;
+}
+
+.github {
+    height: 40px;
+    padding: 0px 10px;
+}
+
+.website {
+    height: 40px;
+    padding: 0px 10px;
+}
+
+.logos{
+    margin: 20px;
+}
+
+
+
+.contacto a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.copyright {
+    margin-top: 10px; /* Espacio adicional arriba del aviso */
+    font-size: 14px;
+    color: #ccc;
+
+    margin: 20px;
+}
+
+@media screen and (max-width: 830px){
+
+    .content {
+        margin: 20px;
+    }
+}

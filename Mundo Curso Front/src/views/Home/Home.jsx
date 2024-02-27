@@ -8,6 +8,7 @@ import SearchBar from '../../components/SearchBar/SearchBar'
 import Carrusel from '../../components/Carrusel/Carrusel'
 import Garantia from '../../assets/Garantia.png'
 import Loader from '../../components/Loader/Loader'
+import Footer from '../../components/Footer/Footer'
 const Home = () => {
 
   const dispatch = useDispatch()
@@ -133,6 +134,7 @@ const Home = () => {
   />
   </div>
   )}
+  <Footer/>
   </div>
   )
 }

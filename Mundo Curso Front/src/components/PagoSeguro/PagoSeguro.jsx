@@ -26,10 +26,10 @@ const PagoSeguro = () => {
     </h3>
     <br/>
     <h3 className={style.h3}>
-    Gracias por confiar en nosotros para tus compras en línea. Esperamos seguir siendo tu opción preferida para tu Educación Digital.
+    Gracias por confiar en nosotros para tus compras en línea. Esperamos seguir siendo la opción preferida para tu Educación Digital.
 
     </h3>
-    
+
     </h3>
     </div>
   )
