@@ -37,5 +37,20 @@
 .h3 {
     justify-content: left;
     text-align: start;
-    margin: 40px;
+    font-weight: bold;
+}
+
+@media screen and (max-width: 830px){
+
+    .h2{
+        font-size: 20px;
+        text-align: justify;
+        width: 100%;
+    }
+    .h3{
+        font-size: 15px;
+        text-align: justify;
+        width: 100%;
+        justify-content: center;
+    }
 }

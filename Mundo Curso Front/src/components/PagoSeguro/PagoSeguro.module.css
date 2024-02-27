@@ -26,17 +26,21 @@
     font-size: 20px;
 }
 
-.h2 {
-    justify-content: left;
-    text-align: start;
-    color: rgb(248, 140, 119);
-    line-height: 80px;
-    margin-top: 120px;    
 
-}
 
 .h3 {
     justify-content: left;
     text-align: start;
-    margin: 40px;
+   
+}
+
+@media screen and (max-width: 830px){
+
+    .h3{
+        font-size: 15px;
+        text-align: justify;
+        width: 100%;
+        justify-content: center;
+        font-weight: bold;
+    }
 }
