@@ -4,6 +4,7 @@ import Navbar from './components/Navbar/Navbar'
 import './App.module.css'
 import Detalle from './views/Detalle/Detalle'
 import Preguntas from './components/Preguntas/preguntas'
+import PagoSeguro from './components/PagoSeguro/PagoSeguro'
 function App() {
   
 
@@ -15,6 +16,7 @@ function App() {
       <Route path="/" element={<Home/>}/>
       <Route path="/detail/:id" element = {<Detalle/>} />
       <Route path="/preguntas" element = {<Preguntas/>} />
+      <Route path="/pagoseguro" element = {<PagoSeguro/>}/>
     </Routes>
   </div>
   )

@@ -18,11 +18,11 @@ justify-content: space-between;
   flex-direction: row;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   color: white;
-    margin: 5px;
+    margin: 7px;
  }
 
  .interrogation {
-    margin-left: 5px;
+    margin-left: 8px;
  }
 .p {
   display: flex;
@@ -62,12 +62,12 @@ flex-wrap: wrap;
     align-items:center ;
     justify-content: center;
     text-align: center;
-    
+    margin: 5px;
 
 }
 
 .home {
-    margin: 5px;
+    margin: 8px;
 }
 
 .dollar {

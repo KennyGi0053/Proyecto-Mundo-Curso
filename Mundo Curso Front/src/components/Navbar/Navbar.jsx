@@ -24,7 +24,9 @@ const Navbar = () => {
         </Link>
         
         <img className={styles.dollar} src={dollar} alt='simbolo de dolar' ></img>
+        <Link to= '/pagoseguro'> 
         <h4 className={styles.p}>Pago seguro</h4>
+        </Link>
         </section >
 
         {/* <img className={styles.garantia} src={Garantia} alt='garantia' /> */}
