@@ -3,7 +3,7 @@ import { searchByName, getCursos } from "../../redux/actions"
 import { useDispatch } from "react-redux"
 import style from './SearchBar.module.css'
 import search from '../../assets/search (1).gif'
-const SearchBar = (returnToFirstPage) => {
+const SearchBar = ({returnToFirstPage}) => {
     const dispatch = useDispatch();
   const [name, setName] = useState('');
 
