@@ -17,62 +17,44 @@ const Carrusel = () => {
   const intervaloSlideshow = useRef(null)
 
   const siguiente = () => {
-    //Comprobamos que el slideshow tenga elementos
-    if(slideshow.current.children.length > 0){
-      // Obtenemos el primer elemento del slideshow
+    if (slideshow.current.children.length > 0) {
       const primerElemento = slideshow.current.children[0];
-      //establecemos la transicion para el slideshow
-      slideshow.current.style.transition = `5000ms ease-out all`;
-
-      const tamañoSlide = slideshow.current.children[0].offsetWidth;
-      //movemos el slideshow
-  slideshow.current.style.transform = `translateX(-${tamañoSlide}px)`;
-
-const transicion = () => {
-  // reiniciamos la posición del slideshow
-  slideshow.current.style.transition = 'none';
-  slideshow.current.style.transform = `translateX(0)`;  // Asegúrate de usar translateX aquí
-
-  // tomamos el primer elemento y lo mandamos al final
-  slideshow.current.appendChild(primerElemento);
-
-  slideshow.current.removeEventListener('transitionend', transicion);
-}
-
-// Eventlistener para cuando termina la animación
-slideshow.current.addEventListener('transitionend', transicion);
-        
-    
-
+      slideshow.current.style.transition = '500ms ease-out all';
+  
+      const tamañoSlide = primerElemento.offsetWidth;
+      slideshow.current.style.transform = `translateX(-${tamañoSlide}px)`;
+  
+      const transicion = () => {
+        slideshow.current.style.transition = 'none';
+        slideshow.current.style.transform = `translateX(0)`;
+        slideshow.current.appendChild(primerElemento);
+        slideshow.current.removeEventListener('transitionend', transicion);
+      };
+  
+      slideshow.current.addEventListener('transitionend', transicion);
     }
-
-  }
+  };
   
   const anterior = () => {
-    if(slideshow.current.children.length > 0) {
-      //obtenemos el ultimo lemento del slideshow
+    if (slideshow.current.children.length > 0) {
       const index = slideshow.current.children.length - 1;
       const ultimoElemento = slideshow.current.children[index];
-      
+  
       slideshow.current.style.transition = 'none';
-      slideshow.current.insertBefore(ultimoElemento, slideshow.current.firstChild)
-
-      const tamañoSlide = slideshow.current.children[0].offsetWidth;
-      slideshow.current.style.transform = `translateX(-${tamañoSlide}px)`;
-
+      slideshow.current.style.transform = `translateX(-100%)`;  // Ajusta el valor según tus necesidades
+      slideshow.current.insertBefore(ultimoElemento, slideshow.current.firstChild);
+  
       setTimeout(() => {
-        slideshow.current.style.transition = '500ms ease-out-all';
-        slideshow.current.style.transform = `translate(0)`
-
-      }, 30)
+        slideshow.current.style.transition = '500ms ease-out all';
+        slideshow.current.style.transform = `translateX(0)`;
+      }, 30);
     }
   }
-
 
   useEffect(() => {
     intervaloSlideshow.current = setInterval(() => {
       siguiente()
-    }, 8200)
+    }, 10000)
 
     //eliminamos los intervalos
     slideshow.current.addEventListener('mouseenter', () => {

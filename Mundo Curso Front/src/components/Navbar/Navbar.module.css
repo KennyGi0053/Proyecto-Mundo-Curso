@@ -1,4 +1,140 @@
-.Container {
+.Nav {
+    display: flex;
+      background-color: rgb(28,28,28);
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      height: 100px;
+      padding: 5px;
+      display: flex;
+      align-items: center;
+      text-align: center;
+      cursor: pointer;
+      flex-direction: row;
+      text-decoration: none; /* Elimina el subrayado */
+
+      
+      
+  }
+  
+  .Nav a {
+      margin: 10px;
+      color: white;
+      transition: color 0.3s ease;
+      width: 100px;
+      text-decoration: none; /* Elimina el subrayado */
+
+    }
+  
+    .Nav a:hover {
+      color: rgb(243, 95, 64)
+    }
+  
+   
+  
+    .imagen {
+      margin-left: 50px;
+      height: 100px;
+      width: 130px;
+      
+    }
+    
+   .links {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 350px;
+     justify-content:center;
+    height: 10px;
+    font-size: 18px;
+    
+  
+   }
+
+  
+  /* Estilo para mostrar/ocultar la barra de navegación móvil */
+  .Nav .links.showNav {
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(0, 0, 0, 0.8);
+    align-items: center;
+    text-align: center;
+    justify-content: space-between;
+  position: absolute;  
+   z-index: 16;
+    border: solid 2px rgb(243, 95, 64);
+    min-width: 130px;
+    min-height: 130px;
+    border-radius: 5px;
+    font-size: 12px;
+    margin-top: 330px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  
+  
+  
+  .mobileMenuIcon {
+    display: none; /* Oculta el icono del menú hamburguesa por defecto */
+    cursor: pointer;
+    margin-left: 220px;
+  
+    /* Agrega los estilos que desees para el icono del menú hamburguesa */
+  }
+  
+  /* Media query para mostrar el icono del menú hamburguesa en dispositivos móviles */
+  @media screen and (max-width: 1024px) {
+    .imagen {
+      margin-left: 30px;
+      height: 90px;
+      width: 110px;
+    }
+  
+    .Nav {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      flex-direction: row;
+    }
+  
+    .mobileMenuIcon {
+      display: block;
+      cursor: pointer;
+      margin-left: 10px; /* Ajusta este valor según sea necesario */
+    }
+  
+    .links {
+      display: none; /* Oculta la barra de navegación principal en dispositivos móviles */
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      align-items: center;
+      justify-content: space-between;
+      text-align: center;
+      justify-content: center;
+      margin-bottom: 120px;
+    }
+  
+    .hamburguer {
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+  
+    .showNav {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      justify-content: space-between;
+      margin-left: 250px;
+      /* Ajusta el margen o elimínalo según sea necesario */
+    }
+  }
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ /* .Container {
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -8,7 +144,7 @@
     background-color: rgb(28,28,28)
     ;
    
-}
+} 
 
 .frecuente {
     display: flex;
@@ -24,6 +160,7 @@ justify-content: space-between;
  .interrogation {
     margin-left: 8px;
  }
+
 .p {
   display: flex;
   align-items: center;
@@ -113,9 +250,9 @@ flex-wrap: wrap;
         display: flex;
         align-items: center;
         flex-direction: row;
-        font-size: 11px;
+        font-size: 12px;
         margin: 0;
     }
     
 
-}
+} */
