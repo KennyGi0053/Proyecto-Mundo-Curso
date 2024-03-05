@@ -882,7 +882,7 @@
         "price": "50",
         "image": "https://static-media.hotmart.com/rSWjOxmbW4pEDGFNQaF4_kdZBhU=/filters:background_color(white)/hotmart/product_pictures/3b64d66a-370f-4073-b710-9b7c606f80de/LAGUIASECRETA600600px22.png",
         "video": "",
-        "categoria": "Tecnología", 
+        "categoria": "Emprendimiento,Moda y Belleza", 
         "formato": "Cursos online",
         "rating": "5",
         "paymentUrl": "https://go.hotmart.com/U91216961N?dp=1",
@@ -983,6 +983,18 @@
         "rating": "5",
         "paymentUrl": "https://go.hotmart.com/U91202506R",
         "adicional": "https://go.hotmart.com/U91202506R" 
+    },
+    {
+        "name": "SWING TRADING FOREX",
+        "description": "En este curso encontrarás todas las bases para aprender a adentrarte en el mundo del Swing Trading para generar altos ingresos desde el lugar que tú prefieras y desde cualquier dispositivo móvil.\n\nBajo la dirección de Adriana Sierra, swing trader profesional con más de dos años de experiencia en el mercado y quien actualmente se dedica a la comercialización de divisas en el Foreign Exchange Market, más conocido como Forex; iniciarás tu aprendizaje hacía cómo funciona el mercado, sus tendencias y sus precios, además, crearás tus propias estrategias para realizar trading de forma sólida y profesional.\n\nAl finalizar este curso estarás listo para salir en la conquista del mercado de divisas, usando todos tus conocimientos y habilidades para realizar operaciones de alta rentabilidad.\n\n¿Qué aprenderás en este curso?\n\nAnalizar el mercado de forma profesional, la administración de tu capital, el control de tus emociones en situaciones de tensión y los principios por los que se rige el mercado.\n\nCrear desde cero tu plan de Trading personalizado, de acuerdo a tu perfil de riesgo y a tu capital de partida.\n\nUtilizar sistemas de entrada y salida de los mercados basados en nuestra estrategia ProSeals, que te servirá de base para tus procesos operativos.\n\nRealizar Trading como todo un profesional con bases de conocimiento y práctica sólidas.",
+        "price": "25",
+        "image": "https://static-media.hotmart.com/PoUe-q1TTohVULdC4RLrhaVUwYg=/filters:background_color(white)/hotmart/product_pictures/f216ee99-dad1-4dc3-ade8-01cdac3edeb8/PRESENTACIONESDELPRODUCTOSWINGTRADINGFOREZ.jpg",
+        "video": "",
+        "categoria": "Finanzas e inversiones", 
+        "formato": "Cursos online",
+        "rating": "5",
+        "paymentUrl": "https://go.hotmart.com/N91451090B?ap=650c",
+        "adicional": "https://go.hotmart.com/N91451090B" 
     }
     
     
