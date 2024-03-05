@@ -918,11 +918,23 @@
         "price": "30",
         "image": "https://static-media.hotmart.com/W503EzvcTBmSwjkrSQSkVJgAZtg=/300x300/smart/filters:format(webp):background_color(white)/hotmart/product_pictures/6c621456-c178-4bb0-82ee-ac76be6b783e/PortadaHotmart.png?w=920",
         "video": "https://player.vimeo.com/video/602088809?autoplay=1&app_id=122963",
-        "categoria": "Emprendimiento, Moda y Belleza", 
+        "categoria": "Emprendimiento", 
         "formato": "Cursos online",
         "rating": "5",
         "paymentUrl": "https://go.hotmart.com/P91223338T?ap=53d1",
         "adicional": "https://go.hotmart.com/P91223338T" 
+    },
+    {
+        "name": "MASTER VIRTUAL EN MAQUILLAJE PROFESIONAL - ÉNFASIS: MAQUILLAJE SOCIAL",
+        "description": "Resumen del Máster\n\nAcceso de por vida\n\nCertificado al finalizar el curso\n\n18 módulos y 58 videos\n\nGuías descargables\n\nSubtítulos en español e inglés\n\nVideos grabados en full HD\n\nEnseñanza didáctica\n\n¿Qué vas a lograr con mi curso?\n\nMás allá de ayudarte a crecer en tu carrera como Makeup Artist mi misión es que puedas generar muy buenos ingresos y emprender con este gran arte, así como yo lo pude realizar hace más de 6 años.\n\n¿Qué aprenderás en este curso?\n\nUsos de las herramientas que necesitas para maquillar\n\nAprenderás a crear maquillajes desde cero con diferentes técnicas de piel, ojos y cejas.\n\nProductos adecuados para los diferentes tipos de piel.\n\n desde cero con diferentes técnicas de piel, ojos y cejas.\n\nAprenderás tips de fotografía para redes sociales y manejo de clientes\n\nProductos adecuados para los diferentes tipos de piel.\n\nTécnicas de maquillaje social más solicitadas por los clientes.\n\nTips para emprender como Makeup Artist.",
+        "price": "78",
+        "image": "https://static-media.hotmart.com/7d_4gVGsc40nLfbf4jo2mxphMuM=/300x300/smart/filters:format(webp):background_color(white)/hotmart/product_pictures/524793f8-e938-498a-ae7d-51b924e4aa4e/PortadaHotmart_MakeupByCataGarcia_2.jpg?w=920",
+        "video": "",
+        "categoria": "Emprendimiento, Moda y Belleza", 
+        "formato": "Cursos online",
+        "rating": "5",
+        "paymentUrl": "https://go.hotmart.com/G91201527Y?ap=f4be",
+        "adicional": "https://go.hotmart.com/G91201527Y" 
     }
     
     
