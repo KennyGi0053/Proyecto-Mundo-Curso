@@ -3,7 +3,7 @@ import Home from './views/Home/Home'
 import Navbar from './components/Navbar/Navbar'
 import './App.module.css'
 import Detalle from './views/Detalle/Detalle'
-import Preguntas from './components/Preguntas/preguntas'
+import Preguntas from './components/Preguntas/Preguntas'
 import PagoSeguro from './components/Pagoseguro/PagoSeguro'
 import axios from 'axios'
 
