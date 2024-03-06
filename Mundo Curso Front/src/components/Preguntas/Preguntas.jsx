@@ -1,4 +1,4 @@
-import style from './preguntas.module.css'
+import style from './Preguntas.module.css'
 const Preguntas = () => {
   return (
     <div className={style.contenedorpreguntas}>
