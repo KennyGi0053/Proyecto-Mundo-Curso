@@ -5,7 +5,7 @@ export const GET_CURSOS = 'GET_CURSOS'
 
 export const getCursos = () => {
     return async(dispatch) => {
-        const response = await axios.get(`http://localhost:3001/curso`)
+        const response = await axios.get(`/curso`)
         const cursos = response.data
         return dispatch({
             type: GET_CURSOS,
@@ -18,7 +18,7 @@ export const GET_CURSOSID = 'GET_CURSOSID'
 
 export const getCursosId = (id) => {
     return async(dispatch) => {
-        const response = await axios.get(`http://localhost:3001/curso/id/${id}`)
+        const response = await axios.get(`/curso/id/${id}`)
         const curso = response.data
 
         dispatch({
@@ -32,7 +32,7 @@ export const GET_CATEGORIA = 'GET_CATEGORIA'
 
 export const getCategoria = () => {
     return async(dispatch) => {
-        const response = await axios.get(`http://localhost:3001/categoria`)
+        const response = await axios.get(`/categoria`)
         const categoria = response.data
         return dispatch({
             type: GET_CATEGORIA,
@@ -55,7 +55,7 @@ export const SEARCH_BY_NAME = 'SEARCH_BY_NAME'
 export const searchByName = (name) => {
 
     return async(dispatch) => {
-        const response = await axios.get(`http://localhost:3001/curso/name/${name}`)
+        const response = await axios.get(`/curso/name/${name}`)
         const Cursos = response.data
         return dispatch ({
             type: SEARCH_BY_NAME,
