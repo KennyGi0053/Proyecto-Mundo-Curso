@@ -26,7 +26,7 @@ const {
     loadCategoria
 
 } = require('./src/controllers/loadsDatabase.js')
-const {DATABASE_URL} = process.env
+const {PORT} = process.env
 
 // Syncing all the models at once.
 conn.sync({ force: true }).then(async() => {
