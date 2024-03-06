@@ -4,7 +4,7 @@ import Navbar from './components/Navbar/Navbar'
 import './App.module.css'
 import Detalle from './views/Detalle/Detalle'
 import Preguntas from './components/Preguntas/Preguntas'
-import PagoSeguro from './components/Pagoseguro/PagoSeguro.jsx'
+import PagoSeguro from './components/PagoSeguro/PagoSeguro.jsx'
 import axios from 'axios'
 
 axios.defaults.baseURL = 'http://localhost:3001/'
