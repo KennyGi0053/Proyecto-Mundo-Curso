@@ -8,7 +8,7 @@ import PagoSeguro from './components/PagoSeguro/PagoSeguro'
 import axios from 'axios'
 
 axios.defaults.baseURL = 'http://localhost:3001/'
-//axios.defaults.baseURL = 'https://main--mimundocurso.netlify.app/'
+axios.defaults.baseURL = 'https://mimundocurso.vercel.app/'
 function App() {
   
 
