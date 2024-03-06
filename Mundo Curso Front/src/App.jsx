@@ -5,6 +5,10 @@ import './App.module.css'
 import Detalle from './views/Detalle/Detalle'
 import Preguntas from './components/Preguntas/preguntas'
 import PagoSeguro from './components/PagoSeguro/PagoSeguro'
+import axios from 'axios'
+
+//axios.defaults.baseURL = 'http://localhost:5173/'
+axios.defaults.baseURL = 'https://mimundocurso.netlify.app/'
 function App() {
   
 
