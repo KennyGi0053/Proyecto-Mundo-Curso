@@ -5,7 +5,7 @@ import imagen4 from '../../assets/yoga ciclo menstrual.jpg'
 import FlechaIzquierda from './left-arrow.png'
 import FlechaDerecha from './right-arrow.png'
 import styled from 'styled-components'
-import style from './carrusel.module.css'
+import style from './Carrusel.module.css'
 import { useRef, useEffect } from 'react'
 // import style from './Carrusel.module.css'
 
