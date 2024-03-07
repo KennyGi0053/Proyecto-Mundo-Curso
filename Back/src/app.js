@@ -14,7 +14,8 @@ server.use(bodyParser.json({ limit: '50mb' }));
 server.use(cookieParser());
 server.use(morgan('dev'));
 server.use((req, res, next) => {
-  res.header('Access-Control-Allow-Origin', 'https://mimundocurso.vercel.app')
+  res.header('Access-Control-Allow-Origin', 'postgres://mundocurso_user:CxWCCCRhZ5gecbLh5UkFJOygDbMLVag1@dpg-cnkdqi6n7f5s73a60if0-a.oregon-postgres.render.com/mundocurso')
+  //res.header('Access-Control-Allow-Origin', 'https://mimundocurso.vercel.app')
   //res.header('Access-Control-Allow-Origin', 'http://localhost:5173'); // update to match the domain you will make the request from
   res.header('Access-Control-Allow-Credentials', 'true');
   res.header('Access-Control-Allow-Headers', 'Origin, X-Requested-With, Content-Type, Accept');
