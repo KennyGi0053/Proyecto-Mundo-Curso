@@ -8,7 +8,7 @@ import PagoSeguro from './components/PagoSeguro/PagoSeguro.jsx'
 import axios from 'axios'
 
 axios.defaults.baseURL = 'http://localhost:3001/'
-//axios.defaults.baseURL = 'https://mundocursoback.onrender.com'
+axios.defaults.baseURL = 'https://mimundocurso.vercel.app'
 function App() {
   
 
