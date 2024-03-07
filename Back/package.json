@@ -6,7 +6,7 @@
   "scripts": {
     "start": "nodemon ./index.js",
     "test": "mocha -w ./tests/**/*.spec.js",
-    "build": "echo 'Build script placeholder'"
+    "build": "echo 'Build script placeholder' && mkdir -p public"
     
   },
   "author": "Kenny",
