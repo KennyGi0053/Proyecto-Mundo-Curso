@@ -83,7 +83,7 @@ const Carrusel = () => {
         </TextoSlide> */}
       </Slide>
       <Slide >
-        <a href="https://go.hotmart.com/L90745859C" target="_blank" rel="noreferrer">
+        <a href="https://go.hotmart.com/H90744880W" target="_blank" rel="noreferrer">
 
         <img  src={imagen2} alt='foto de carrusel 2'/>
         </a>
