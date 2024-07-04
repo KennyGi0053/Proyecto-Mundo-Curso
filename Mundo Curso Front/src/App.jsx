@@ -7,8 +7,8 @@ import Preguntas from './components/Preguntas/Preguntas'
 import PagoSeguro from './components/PagoSeguro/PagoSeguro.jsx'
 import axios from 'axios'
 
-//axios.defaults.baseURL = 'http://localhost:3001/'
-axios.defaults.baseURL = 'https://render-mundocursoback.onrender.com'
+axios.defaults.baseURL = 'http://localhost:3001/'
+//axios.defaults.baseURL = 'https://render-mundocursoback.onrender.com'
 function App() {
   
 
