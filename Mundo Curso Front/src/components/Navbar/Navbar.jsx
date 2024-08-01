@@ -1,6 +1,6 @@
 import { NavLink } from "react-router-dom"
 import style from './Navbar.module.css'
-import logo from '../../assets/logo mi mundo curso.png'
+import logo from '../../assets/Logo Mundo Curso.png'
 import { useState } from "react";
 const Navbar = () => {
   const [showNav, setShowNav] = useState(false); // Agrega el estado para mostrar/ocultar la barra de navegación

@@ -3,7 +3,7 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    background-color: rgb(28,28,28);
+    background-color: rgb(255, 255, 255);
     background-size: 100% 100%;
     min-height: 100%;
     width: 100%; 
@@ -122,10 +122,11 @@
     margin: 0;
     box-sizing: border-box;
     background: transparent;
-    max-width: 1260px;
+    max-width: 1200px;
     margin: 0px auto;
     overflow: hidden;
-    
+    border-radius: 20px;
+    margin-top: 20px;
   
 }
 
@@ -163,7 +164,5 @@
 
     
     }
-
-  
    
   }

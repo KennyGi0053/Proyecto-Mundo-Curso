@@ -2,7 +2,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: rgb(28,28,28);
+  background-color: white;
 }
 
 .loader {

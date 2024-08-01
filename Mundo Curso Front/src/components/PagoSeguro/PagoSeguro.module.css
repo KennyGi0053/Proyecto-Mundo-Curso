@@ -4,26 +4,22 @@
     align-items: center;
     text-align: center;
     justify-content: center;
-    margin: 20px;
+    background-color: white;
 }
 
 
 .Titulo {
-    color: white;
-    margin-bottom: -100px;
-    font-size: 40px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: sans-serif;
     color: rgb(243,95,64);
     transition: color 0.5s ease;
-    margin: 20px;
 }
 
 .informacion {
-    color: white;
+    color: black;
     margin: 40px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    line-height: 50px;
-    font-size: 20px;
+    font-family: sans-serif;
+    line-height: 40px;
+    font-size: 15px;
 }
 
 

@@ -4,7 +4,7 @@
     justify-content: center;
     align-items:center;
     text-align: center;
-    background-color: rgb(28,28,28);
+    background-color: white;
     
 
 }
@@ -52,10 +52,9 @@
     text-align: justify;
     align-items: center;
     width: 550px;
-    color: white;
+    color: black;
     line-height: 50px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 20px;
+    font-size: 15px;
    
 }
 

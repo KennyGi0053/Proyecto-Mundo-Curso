@@ -1,8 +1,7 @@
 .ContenedorFooter{
     display: flex;
     flex-direction: column;
-    background-color: #333;
-    color: #fff;
+    background-color: #dfd7d7;
     padding: 20px 0;
     text-align: center;
 }
@@ -16,7 +15,7 @@
 .text {
     margin: 0;
     font-size: 18px;
-    color: #ccc;
+    color: #070707;
 }
 
 
@@ -42,14 +41,14 @@
 
 
 .contacto a {
-    color: #fff;
+    color: #0a0a0a;
     text-decoration: none;
 }
 
 .copyright {
     margin-top: 10px; /* Espacio adicional arriba del aviso */
     font-size: 14px;
-    color: #ccc;
+    color: #0a0a0a;
 
     margin: 20px;
 }
